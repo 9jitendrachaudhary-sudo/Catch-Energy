@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en-GB" style="background:#FFFFFF">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>Catch Energy | Absorption Chillers, Absorption Heat Pumps &amp; Industrial Heat Recovery — UK &amp; Europe</title>
+<meta name="description" content="Catch Energy — Turning Waste Heat into Reliable Energy. We supply and service absorption chillers, absorption heat pumps and industrial heat recovery equipment across the UK &amp; Europe. OEM-trained engineers, 24/7 support, commissioning and maintenance.">
+<meta name="keywords" content="absorption chillers, absorption heat pump, heat recovery in industries, absorption chiller service UK, LiBr chiller maintenance, waste heat recovery, district heating heat pump, data centre absorption cooling">
+<meta property="og:title" content="Catch Energy — Absorption Chillers &amp; Industrial Heat Recovery Specialists">
+<meta property="og:description" content="We catch wasted heat and turn it into reliable cooling and useful energy. Absorption chiller service, absorption heat pumps and heat recovery engineering across the UK &amp; Europe.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Catch Energy","description":"Specialists in absorption chillers, absorption heat pumps and industrial heat recovery. Service, maintenance, commissioning and cooling plant management across the UK and Europe.","areaServed":["United Kingdom","Europe"],"address":{"@type":"PostalAddress","addressLocality":"Milton Keynes","addressCountry":"GB"},"email":"service@catchenergy.co.uk","knowsAbout":["Absorption Chillers","Absorption Heat Pumps","Heat Recovery in Industries","LiBr Chiller Maintenance","District Heating","Trigeneration","Data Centre Cooling"]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light only;
+  --navy-950:#0D2140; --navy-900:#14315C; --navy-800:#1A3E74;
+  --teal-700:#127C8C; --teal-500:#1FA3B5; --teal-400:#3FBCCB;
+  --orange:#F58220; --orange-d:#DD6F0D;
+  --ice:#F2F8F9; --ice-2:#E3F0F3; --line:#DBE7EA;
+  --ink:#142433; --muted:#55707E; --faint:#8DA4AE; --white:#FFFFFF;
+  --radius:12px; --maxw:1180px;
+  --font-display:'Archivo',sans-serif; --font-body:'Manrope',sans-serif; --font-mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;background:#FFFFFF}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{font-family:var(--font-body);color:var(--ink);background:#FFFFFF;line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--font-display);line-height:1.14;color:var(--navy-900)}
+a{color:inherit;text-decoration:none}
+img,video{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-500);display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--orange);border-radius:2px}
+section{padding:88px 0}
+.section-head{max-width:680px;margin-bottom:48px}
+.section-head h2{font-size:clamp(26px,3.4vw,38px);font-weight:700;letter-spacing:-.02em;margin-bottom:14px}
+.section-head p{color:var(--muted);font-size:17px}
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--font-display);font-weight:600;font-size:15.5px;padding:14px 28px;border-radius:999px;border:1px solid transparent;cursor:pointer;transition:background .18s,color .18s,border-color .18s,transform .18s}
+.btn:hover{transform:translateY(-1px)}
+.btn svg{width:15px;height:15px}
+.btn-orange{background:var(--orange);color:#FFFFFF}
+.btn-orange:hover{background:var(--orange-d);color:#FFFFFF}
+.btn-ghost{border-color:rgba(255,255,255,.5);color:#FFFFFF}
+.btn-ghost:hover{background:rgba(255,255,255,.12);color:#FFFFFF}
+.btn-ghost-dark{border-color:var(--line);color:var(--navy-900);background:#FFFFFF}
+.btn-ghost-dark:hover{border-color:var(--teal-500);color:var(--teal-700)}
+.btn-teal{background:var(--teal-700);color:#fff}
+.btn-teal:hover{background:var(--teal-500);color:#fff}
+:focus-visible{outline:2px solid var(--teal-400);outline-offset:2px}
+
+/* NAV */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:88px}
+.logo img{height:52px;width:auto}
+nav ul{display:flex;gap:28px;list-style:none;align-items:center}
+nav ul a{font-size:15px;font-weight:600;color:var(--muted);transition:color .15s;cursor:pointer}
+nav ul a:hover,nav ul a.active{color:var(--navy-900)}
+nav ul a.active{color:var(--teal-700)}
+.nav-cta{background:var(--orange);color:#FFFFFF!important;padding:11px 22px;border-radius:999px;font-family:var(--font-display);font-weight:600;font-size:14px}
+.nav-cta:hover{background:var(--orange-d)}
+.menu-btn{display:none;background:none;border:none;cursor:pointer;padding:8px}
+.menu-btn svg{width:26px;height:26px;stroke:var(--navy-900)}
+
+/* PAGES */
+.page{display:none}
+.page.active{display:block;animation:fadein .35s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* VIDEO HERO */
+.vhero{position:relative;min-height:78vh;display:flex;align-items:center;overflow:hidden;background:var(--navy-950)}
+.vhero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.vhero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(13,33,64,.92) 0%,rgba(13,33,64,.72) 45%,rgba(13,33,64,.35) 100%)}
+.vhero .wrap{position:relative;z-index:2;padding-top:72px;padding-bottom:72px}
+.vhero .eyebrow{color:var(--teal-400)}
+.vhero h1{color:#fff;font-size:clamp(34px,5vw,58px);font-weight:800;letter-spacing:-.025em;margin-bottom:22px;max-width:760px}
+.vhero h1 .hl{color:var(--orange)}
+.vhero p.sub{font-size:18.5px;color:#C5D3E4;max-width:600px;margin-bottom:36px}
+.vhero .kw{font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#7F98B5;margin-top:44px;display:flex;gap:22px;flex-wrap:wrap}
+.vhero .kw span{border-left:2px solid var(--orange);padding-left:10px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+
+/* STATS */
+.stats{background:#fff;border-bottom:1px solid var(--line);padding:0}
+.stats .wrap{display:flex;flex-wrap:wrap}
+.stats .cell{flex:1;min-width:160px;padding:30px 24px;border-left:2px solid var(--orange)}
+.stats .num{font-family:var(--font-display);font-weight:800;font-size:28px;color:var(--navy-900)}
+.stats .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);margin-top:2px}
+
+/* PILLARS (what we do) */
+.pillars{background:var(--ice)}
+.pil-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.pil{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
+.pil:hover{box-shadow:0 16px 40px rgba(13,33,64,.12);transform:translateY(-3px)}
+.pil .ph{height:190px;overflow:hidden;background:var(--navy-950)}
+.pil .ph img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.pil:hover .ph img{transform:scale(1.05)}
+.pil .bd{padding:26px;display:flex;flex-direction:column;flex:1}
+.pil h3{font-size:19px;font-weight:700;margin-bottom:8px}
+.pil p{font-size:14.5px;color:var(--muted);flex:1}
+.pil .go{margin-top:16px;font-weight:700;color:var(--teal-700);font-size:14.5px;display:flex;align-items:center;gap:7px}
+.pil .go svg{width:15px;height:15px}
+
+/* SPLIT (image+text) */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.split .im{border-radius:16px;overflow:hidden;box-shadow:0 20px 50px rgba(13,33,64,.14)}
+.split .im img{width:100%;height:100%;object-fit:cover;min-height:340px}
+.split h2{font-size:clamp(24px,3vw,34px);font-weight:700;letter-spacing:-.02em;margin-bottom:14px}
+.split p{color:var(--muted);margin-bottom:14px}
+.ticks{list-style:none;margin:18px 0 26px}
+.ticks li{display:flex;gap:11px;align-items:flex-start;padding:7px 0;font-weight:600;font-size:15px}
+.ticks li svg{width:17px;height:17px;color:var(--teal-500);flex:none;margin-top:3px}
+
+/* PRODUCT CARDS */
+.prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.prod{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s}
+.prod:hover{box-shadow:0 14px 38px rgba(13,33,64,.12)}
+.prod .ph{height:200px;overflow:hidden;background:var(--navy-950);position:relative}
+.prod .ph img{width:100%;height:100%;object-fit:cover}
+.prod .tag{position:absolute;top:14px;left:14px;background:var(--orange);color:#fff;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+.prod .bd{padding:26px}
+.prod h3{font-size:18px;font-weight:700;margin-bottom:8px}
+.prod p{font-size:14px;color:var(--muted);margin-bottom:14px}
+.prod .specs{list-style:none;border-top:1px solid var(--ice-2);padding-top:12px}
+.prod .specs li{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:5px 0}
+.prod .specs .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);padding-top:2px}
+.prod .specs .v{font-weight:700;color:var(--navy-900);text-align:right}
+
+/* SERVICES */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;transition:border-color .2s,box-shadow .2s}
+.svc:hover{border-color:var(--teal-400);box-shadow:0 12px 32px rgba(13,33,64,.09)}
+.svc .ic{width:42px;height:42px;border-radius:12px;background:var(--ice);display:flex;align-items:center;justify-content:center;color:var(--teal-700);margin-bottom:16px}
+.svc .ic svg{width:21px;height:21px}
+.svc h3{font-size:17px;font-weight:700;margin-bottom:6px}
+.svc p{font-size:14px;color:var(--muted)}
+
+/* INDUSTRIES strip */
+.indstrip{background:var(--navy-950);position:relative;overflow:hidden}
+.indstrip::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 400px at 90% 0%,rgba(245,130,32,.14),transparent 60%)}
+.indstrip .wrap{position:relative}
+.indstrip .section-head h2{color:#fff}
+.indstrip .section-head p{color:#A9BCD6}
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chip{border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:12px 20px;font-size:14.5px;font-weight:600;color:#E8EFF7;display:flex;align-items:center;gap:10px}
+.chip .dot{width:7px;height:7px;border-radius:50%;background:var(--teal-400)}
+
+/* BLOG */
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.post{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;cursor:pointer;transition:box-shadow .2s,transform .2s}
+.post:hover{box-shadow:0 14px 38px rgba(13,33,64,.12);transform:translateY(-3px)}
+.post .ph{height:170px;overflow:hidden;background:var(--navy-950)}
+.post .ph img{width:100%;height:100%;object-fit:cover}
+.post .bd{padding:24px;display:flex;flex-direction:column;flex:1}
+.post .cat{font-family:var(--font-mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--orange);margin-bottom:8px}
+.post h3{font-size:17px;font-weight:700;margin-bottom:8px;line-height:1.3}
+.post p{font-size:13.5px;color:var(--muted);flex:1}
+.post .read{margin-top:14px;font-size:13.5px;font-weight:700;color:var(--teal-700);display:flex;align-items:center;gap:6px}
+.post .read svg{width:14px;height:14px}
+
+/* ARTICLE */
+.article-hero{background:linear-gradient(160deg,var(--navy-950),var(--navy-800));padding:80px 0 60px}
+.article-hero .cat{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:14px}
+.article-hero h1{color:#fff;font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-.02em;max-width:820px}
+.article-hero .meta{color:#8FA5C2;font-family:var(--font-mono);font-size:12.5px;margin-top:18px}
+.article-body{max-width:780px;margin:0 auto;padding:64px 24px 40px;font-size:17px;line-height:1.8}
+.article-body h2{font-size:26px;margin:44px 0 16px;letter-spacing:-.015em}
+.article-body h3{font-size:20px;margin:32px 0 12px}
+.article-body p{margin-bottom:18px;color:#2A3B49}
+.article-body ul,.article-body ol{margin:0 0 18px 22px;color:#2A3B49}
+.article-body li{margin-bottom:8px}
+.article-body strong{color:var(--navy-900)}
+.article-body .callout{background:var(--ice);border-left:4px solid var(--teal-500);border-radius:0 10px 10px 0;padding:20px 24px;margin:26px 0;font-size:15.5px}
+.article-cta{background:var(--ice);border:1px solid var(--line);border-radius:16px;padding:32px;margin:44px 0 0;text-align:center}
+.article-cta h3{margin-bottom:8px}
+.article-cta p{color:var(--muted);margin-bottom:20px}
+.back-link{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--teal-700);margin-bottom:8px;cursor:pointer}
+.back-link svg{width:15px;height:15px}
+
+/* CTA + CONTACT + FOOTER */
+.cta{background:radial-gradient(800px 420px at 88% -20%,rgba(245,130,32,.2),transparent 60%),linear-gradient(150deg,var(--navy-950),var(--navy-800));text-align:center}
+.cta h2{color:#fff;font-size:clamp(27px,3.6vw,42px);font-weight:800;letter-spacing:-.025em;margin-bottom:14px}
+.cta p{color:#B9C9DE;font-size:17px;max-width:540px;margin:0 auto 34px}
+.cta .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px}
+.contact-info .line{display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid var(--ice-2);font-size:15px}
+.contact-info .line svg{width:19px;height:19px;color:var(--teal-700);flex:none;margin-top:3px}
+.contact-info .line .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);display:block}
+.form-card{border:1px solid var(--line);border-radius:16px;padding:36px;background:#fff;box-shadow:0 16px 44px rgba(13,33,64,.08)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px;color:var(--navy-900)}
+.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px 14px;font-family:var(--font-body);font-size:14.5px;color:var(--ink);background:var(--ice);transition:border-color .15s,background .15s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--teal-500);background:#fff}
+.form-note{font-size:12.5px;color:var(--faint);margin-top:14px}
+footer{background:var(--navy-950);color:#93A7C0;padding:66px 0 34px;font-size:14px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px}
+.foot-grid h4{color:#fff;font-size:14px;font-weight:700;margin-bottom:16px}
+.foot-grid ul{list-style:none}
+.foot-grid ul li{margin-bottom:9px}
+.foot-grid a{cursor:pointer}
+.foot-grid a:hover{color:#fff}
+.foot-brand .foot-logo{background:#fff;border-radius:12px;padding:10px 14px;display:inline-block}
+.foot-brand .foot-logo img{height:46px;width:auto}
+.foot-brand p{max-width:290px;margin-top:16px;font-size:13.5px}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.14);padding-top:26px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:var(--font-mono);font-size:11.5px;letter-spacing:.06em}
+.pagehero{background:linear-gradient(160deg,var(--navy-950),var(--navy-800));padding:76px 0 64px;position:relative;overflow:hidden}
+.pagehero::after{content:"";position:absolute;inset:0;background:radial-gradient(700px 380px at 92% -10%,rgba(245,130,32,.16),transparent 60%)}
+.pagehero .wrap{position:relative;z-index:2}
+.pagehero .eyebrow{color:var(--teal-400)}
+.pagehero h1{color:#fff;font-size:clamp(30px,4.2vw,48px);font-weight:800;letter-spacing:-.02em;max-width:800px}
+.pagehero p{color:#B9C9DE;font-size:17.5px;max-width:640px;margin-top:16px}
+
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:980px){
+  .nav{height:74px}
+  .logo img{height:44px}
+  .split{grid-template-columns:1fr}
+  .pil-grid,.prod-grid,.svc-grid,.blog-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  nav ul{display:none;position:absolute;top:80px;left:0;right:0;background:#fff;flex-direction:column;padding:20px 24px;gap:18px;border-bottom:1px solid var(--line);align-items:flex-start;z-index:60}
+  nav ul.open{display:flex}
+  .menu-btn{display:block}
+  .vhero{min-height:64vh}
+}
+@media(max-width:600px){
+  section{padding:60px 0}
+  .pil-grid,.prod-grid,.svc-grid,.blog-grid{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .logo img{height:38px}
+  .stats .cell{min-width:130px;padding:20px 16px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" onclick="go('home')" style="cursor:pointer" aria-label="Catch Energy — home">
+      <img src="data:image/jpeg;base64,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WugqPVsMU7JH0N5pDz0lwh6SROHZnxb5K71QrKE5QfFF8yG+iu+DrtW6ZZujNUVtVPNYtQRsp9RUTeZ/L/F1UfYJo/EHvHcVeeVbuqNN/bqKnqaWQU14oHGWjqsfMd3td4scOhHh5gLv2O6/bagZM+IwVLCY54HHJikHRzfPyPeCD3rKe0vXiRY/HX+DY99uj817/ev36npoiKMthERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREARFTKA8zUV8pdN2atulY7lp6WMvd4uPcB5k4HvUI9R3+r1Peqy7Vr+aoqX82O5g7mjyA6LNXEZqsufRaagf0GKmpx/mN+s/BYc0dpybVupbfaIcj5RJ98cPwIx1cfgF0ml0qml3z8foeW9rc+edmx0+nmovb4yf2+5mbh/0A0t+6q4RZc7LKFjh2DsdJ+we9SCAwurb6GC2UUFJTRiOngYI42Dsa0DAC7a0WTkSvsc2d/pGmw07Fjjw6rq/N+IREUBswiLiqKiOmhfLNI2OJgLnPecBoHeSh8bSW7KzSshjdJI8MjYC5znHAAHeVELdzXY1tqM/JXE2qhzFT/l/jP9+OnkAri3c3i+6ITWOxSubas8s9SOhqPIeDPr9iw3zLo9MwXX+NYufh7jy3tb2hjlf9LGe8V1fm/Je5H3lfdPNJTzRzQvdHLG4PY9pwWkHIIXAXKgetyzhFunuiZe1uuma305HNK5ouVLiKqYPxsdHY8HDr8VfShntPrE6R1jRyyPLaGsIpqkE9A0no73HB9mVMppyPFclqGN3FvLo+h7X2Z1Z6jhp2P148n/AA/mfSIioHRlD2Loih9Bc3VcPT07Qydvc4j5rvaOz2Y8F30wiexi4p9QiIhkEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBccrxGxznHDWgkk9wXIrP3Ru5smg77Vsdyy/JzEw94c/1R9ayhHjkorxIcm5UUztfSKb/QiNrO/u1Lqm7XMuLm1E7jHnuYOjR/igLM3DbptpjumoJW+s4ikhJ7gMOefpaPco8Y5RlTW2pswsegbHTF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" alt="Catch Energy — absorption chillers, absorption heat pumps and heat recovery specialists">
+    </a>
+    <nav aria-label="Main">
+      <button class="menu-btn" aria-label="Open menu" onclick="document.getElementById('navlinks').classList.toggle('open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul id="navlinks">
+        <li><a data-nav="home" onclick="go('home')">Home</a></li>
+        <li><a data-nav="products" onclick="go('products')">Products</a></li>
+        <li><a data-nav="services" onclick="go('services')">Services</a></li>
+        <li><a data-nav="blog" onclick="go('blog')">Knowledge Hub</a></li>
+        <li><a class="nav-cta" onclick="go('home','contact')">Request Service</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HOME ============ -->
+<main class="page" id="page-home">
+
+<div class="vhero">
+  <video autoplay muted loop playsinline poster="https://images.pexels.com/videos/30243443/pexels-photo-30243443.jpeg?w=1600&h=900&fit=crop" onerror="this.style.display='none'">
+    <source src="https://www.pexels.com/download/video/30243443/" type="video/mp4">
+  </video>
+  <div class="wrap">
+    <div class="eyebrow">Turning waste heat into reliable energy</div>
+    <h1>We catch wasted industrial heat and turn it into <span class="hl">cooling, heating and profit.</span></h1>
+    <p class="sub">Catch Energy supplies, commissions and services absorption chillers, absorption heat pumps and heat recovery systems for mission-critical facilities across the UK &amp; Europe.</p>
+    <div class="hero-btns">
+      <a class="btn btn-orange" onclick="go('home','contact')">Request Service
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-ghost" onclick="go('products')">Explore Products</a>
+    </div>
+    <div class="kw"><span>13+ years OEM experience</span><span>24/7 emergency support</span><span>UK + Europe coverage</span></div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="cell"><div class="num">13+</div><div class="lbl">Years OEM Experience</div></div>
+    <div class="cell"><div class="num">50–90%</div><div class="lbl">Typical Waste Heat Recoverable</div></div>
+    <div class="cell"><div class="num">24/7</div><div class="lbl">Emergency Support</div></div>
+    <div class="cell"><div class="num">UK+EU</div><div class="lbl">Site Coverage</div></div>
+  </div>
+</div>
+
+<section class="pillars">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">What we do</div>
+      <h2>Three ways we put wasted energy back to work.</h2>
+      <p>Every factory, energy centre and data hall throws heat away. We engineer the systems — and the service — that capture it.</p>
+    </div>
+    <div class="pil-grid reveal">
+      <div class="pil" onclick="go('products')">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/18866539/pexels-photo-18866539.jpeg?w=800&h=500&fit=crop" alt="Absorption chiller plant — industrial cooling from waste heat" onerror="this.style.display='none'"></div>
+        <div class="bd">
+          <h3>Absorption Chillers</h3>
+          <p>Hot water, steam, exhaust gas and direct-fired absorption chillers that turn waste heat into chilled water — cutting electrical cooling load in data centres, hospitals and industry.</p>
+          <span class="go">View products <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+      <div class="pil" onclick="go('products')">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/33906992/pexels-photo-33906992.jpeg?w=800&h=500&fit=crop" alt="Absorption heat pump for district heating and industrial heat recovery" onerror="this.style.display='none'"></div>
+        <div class="bd">
+          <h3>Absorption Heat Pumps</h3>
+          <p>Type I and Type II absorption heat pumps that upgrade low-grade waste heat into useful process heat and district heating flow temperatures — driven by heat, not electricity.</p>
+          <span class="go">View products <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+      <div class="pil" onclick="go('services')">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/8523775/pexels-photo-8523775.jpeg?w=800&h=500&fit=crop" alt="Industrial heat recovery engineering services" onerror="this.style.display='none'"></div>
+        <div class="bd">
+          <h3>Service &amp; Maintenance</h3>
+          <p>OEM-level service, commissioning, LiBr analysis, vacuum testing and 24/7 breakdown support that keeps absorption machines and complete cooling plants at design performance.</p>
+          <span class="go">View services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div class="im reveal"><img loading="lazy" src="https://images.pexels.com/videos/29959194/pexels-photo-29959194.jpeg?w=900&h=700&fit=crop" alt="Industrial plant with waste heat recovery potential" onerror="this.parentElement.style.display='none'"></div>
+    <div class="reveal">
+      <div class="eyebrow">Why heat recovery</div>
+      <h2>Industry wastes 20–50% of the energy it buys. We help you catch it.</h2>
+      <p>Flue gases, jacket water, condenser circuits, compressed air systems, data hall exhaust — most sites reject enormous quantities of usable heat to atmosphere while paying for gas and electricity next door.</p>
+      <p>Absorption technology converts that rejected heat directly into chilled water or upgraded heating, with minimal electrical input, near-silent operation and refrigerants with zero ozone depletion potential.</p>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg>Cut electrical cooling costs and CO₂ emissions</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg>Improve CHP and district heating scheme economics</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg>Meet ESG, SECR and net-zero commitments with real engineering</li>
+      </ul>
+      <a class="btn btn-teal" onclick="go('article','heat-recovery-industries')">Read: Heat Recovery in Industries
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="indstrip">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Industries we support</div>
+      <h2>Trusted where cooling and heat can never fail.</h2>
+      <p>Mission-critical experience across the UK and mainland Europe.</p>
+    </div>
+    <div class="chips reveal">
+      <div class="chip"><span class="dot"></span>Data Centres</div>
+      <div class="chip"><span class="dot"></span>Hospitals</div>
+      <div class="chip"><span class="dot"></span>District Heating</div>
+      <div class="chip"><span class="dot"></span>Energy Centres &amp; CHP</div>
+      <div class="chip"><span class="dot"></span>Manufacturing</div>
+      <div class="chip"><span class="dot"></span>Pharmaceutical</div>
+      <div class="chip"><span class="dot"></span>Universities</div>
+      <div class="chip"><span class="dot"></span>Hotels</div>
+      <div class="chip"><span class="dot"></span>Commercial Buildings</div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Knowledge hub</div>
+      <h2>Learn how absorption technology earns its keep.</h2>
+      <p>Practical engineering articles on absorption chillers, absorption heat pumps and industrial heat recovery — written by the people who service them.</p>
+    </div>
+    <div class="blog-grid reveal" id="home-blog-grid"></div>
+    <div style="text-align:center;margin-top:36px"><a class="btn btn-ghost-dark" onclick="go('blog')">View all articles</a></div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap reveal">
+    <h2>Have waste heat? Let's turn it into value.</h2>
+    <p>Tell us about your site and we'll respond with a clear, engineer-written assessment — usually within one working day.</p>
+    <div class="btns">
+      <a class="btn btn-orange" onclick="go('home','contact')">Request a quotation
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-ghost" href="tel:+441908000000">24/7 Emergency line</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Contact</div>
+      <h2>Talk to an engineer, not a call centre.</h2>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <div class="line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          <div><span class="lbl">Phone / 24-7 line</span>+44 (0)1908 000 000</div></div>
+        <div class="line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          <div><span class="lbl">Email</span>service@catchenergy.co.uk</div></div>
+        <div class="line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18M12 3c-3 3.5-3 14 0 18"/></svg>
+          <div><span class="lbl">Coverage</span>United Kingdom &amp; mainland Europe</div></div>
+        <div class="line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-6h6v6"/></svg>
+          <div><span class="lbl">Registered</span>Registered in England &amp; Wales · Milton Keynes</div></div>
+      </div>
+      <div class="form-card">
+        <div class="form-row">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" type="text" placeholder="Your name"></div>
+          <div class="field"><label for="f-company">Company</label><input id="f-company" type="text" placeholder="Company or site"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" placeholder="you@company.com"></div>
+          <div class="field"><label for="f-phone">Phone</label><input id="f-phone" type="tel" placeholder="+44"></div>
+        </div>
+        <div class="field"><label for="f-type">What do you need?</label>
+          <select id="f-type"><option>Request a quote</option><option>Emergency support</option><option>Maintenance contract</option><option>Commissioning</option><option>Heat recovery feasibility</option><option>Plant health audit</option><option>Something else</option></select></div>
+        <div class="field"><label for="f-msg">Tell us about your plant</label><textarea id="f-msg" rows="4" placeholder="Machine make/model, waste heat source, site type, what's happening"></textarea></div>
+        <button class="btn btn-orange" style="width:100%;justify-content:center" onclick="handleSubmit()">Send enquiry</button>
+        <p class="form-note" id="form-note">We reply within one working day. For emergencies, call the 24/7 line.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ PRODUCTS ============ -->
+<main class="page" id="page-products">
+<div class="pagehero">
+  <div class="wrap">
+    <div class="eyebrow">Products</div>
+    <h1>Absorption chillers, absorption heat pumps &amp; heat recovery equipment</h1>
+    <p>Heat-driven machines that convert your waste heat into chilled water or upgraded heating — supplied, commissioned and supported for life by Catch Energy.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Absorption chillers</div>
+      <h2>Cooling powered by heat, not electricity.</h2>
+      <p>LiBr/water absorption chillers use your waste heat, hot water, steam or exhaust gas as the driving energy — delivering chilled water with a fraction of the electrical demand of conventional chillers.</p>
+    </div>
+    <div class="prod-grid reveal">
+      <div class="prod">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/18866539/pexels-photo-18866539.jpeg?w=800&h=520&fit=crop" alt="Hot water driven absorption chiller" onerror="this.style.display='none'"><span class="tag">Most popular</span></div>
+        <div class="bd"><h3>Hot Water Driven Absorption Chillers</h3>
+          <p>Single and double-effect machines driven by hot water from CHP engines, district heating, solar thermal or process waste heat.</p>
+          <ul class="specs">
+            <li><span class="k">Driving heat</span><span class="v">80–180 °C hot water</span></li>
+            <li><span class="k">Capacity</span><span class="v">100 kW – 12 MW</span></li>
+            <li><span class="k">Typical COP</span><span class="v">0.7 – 1.4</span></li>
+            <li><span class="k">Best for</span><span class="v">CHP, district energy</span></li>
+          </ul></div>
+      </div>
+      <div class="prod">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/30243443/pexels-photo-30243443.jpeg?w=800&h=520&fit=crop" alt="Steam driven absorption chiller for industry" onerror="this.style.display='none'"></div>
+        <div class="bd"><h3>Steam Driven Absorption Chillers</h3>
+          <p>Double-effect steam-fired machines for sites with existing steam infrastructure — high efficiency cooling from process steam.</p>
+          <ul class="specs">
+            <li><span class="k">Driving heat</span><span class="v">Steam 1–10 bar(g)</span></li>
+            <li><span class="k">Capacity</span><span class="v">200 kW – 15 MW</span></li>
+            <li><span class="k">Typical COP</span><span class="v">1.2 – 1.45</span></li>
+            <li><span class="k">Best for</span><span class="v">Process industry</span></li>
+          </ul></div>
+      </div>
+      <div class="prod">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/10967336/pexels-photo-10967336.jpeg?w=800&h=520&fit=crop" alt="Exhaust gas driven absorption chiller recovering flue gas heat" onerror="this.style.display='none'"></div>
+        <div class="bd"><h3>Exhaust Gas &amp; Direct-Fired Chillers</h3>
+          <p>Machines fired directly by engine or turbine exhaust, or by gas burner — perfect for trigeneration and off-grid cooling.</p>
+          <ul class="specs">
+            <li><span class="k">Driving heat</span><span class="v">Exhaust 250–550 °C</span></li>
+            <li><span class="k">Capacity</span><span class="v">150 kW – 10 MW</span></li>
+            <li><span class="k">Typical COP</span><span class="v">1.2 – 1.4</span></li>
+            <li><span class="k">Best for</span><span class="v">Trigeneration / CCHP</span></li>
+          </ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Absorption heat pumps</div>
+      <h2>Upgrade low-grade waste heat into useful energy.</h2>
+      <p>Absorption heat pumps recover heat that would otherwise be rejected — from flue gases, cooling circuits or sewage — and lift it to useful temperatures for district heating and process use.</p>
+    </div>
+    <div class="prod-grid reveal" style="grid-template-columns:repeat(2,1fr)">
+      <div class="prod">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/33906992/pexels-photo-33906992.jpeg?w=900&h=520&fit=crop" alt="Type 1 absorption heat pump for district heating heat recovery" onerror="this.style.display='none'"><span class="tag">Type I</span></div>
+        <div class="bd"><h3>Type I Absorption Heat Pumps (Heat Amplifiers)</h3>
+          <p>Combine a high-temperature driving source with low-grade waste heat to deliver a large flow of medium-temperature heat — COPs around 1.7 mean roughly 1.7 kW of useful heat for every 1 kW of driving heat.</p>
+          <ul class="specs">
+            <li><span class="k">Output temp</span><span class="v">Up to ~90 °C</span></li>
+            <li><span class="k">Typical COP</span><span class="v">1.6 – 1.8</span></li>
+            <li><span class="k">Best for</span><span class="v">District heating, flue gas recovery</span></li>
+          </ul></div>
+      </div>
+      <div class="prod">
+        <div class="ph"><img loading="lazy" src="https://images.pexels.com/videos/35817142/pexels-photo-35817142.jpeg?w=900&h=520&fit=crop" alt="Type 2 absorption heat transformer for industrial process heat" onerror="this.style.display='none'"><span class="tag">Type II</span></div>
+        <div class="bd"><h3>Type II Heat Transformers</h3>
+          <p>Take medium-temperature waste heat and lift a portion of it to a higher temperature — with almost no external energy input. Ideal where process waste heat exists but higher-grade heat is needed.</p>
+          <ul class="specs">
+            <li><span class="k">Temperature lift</span><span class="v">+30 – 50 °C</span></li>
+            <li><span class="k">Typical COP</span><span class="v">≈ 0.45 – 0.5</span></li>
+            <li><span class="k">Best for</span><span class="v">Process industry upgrades</span></li>
+          </ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Heat recovery equipment</div>
+      <h2>The complete heat recovery plant room.</h2>
+      <p>Alongside absorption machines, we supply and integrate the equipment that captures, moves and rejects heat around your site.</p>
+    </div>
+    <div class="svc-grid reveal">
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg></div><h3>Heat Exchangers</h3><p>Plate, shell &amp; tube and plate-&amp;-shell exchangers for liquid-to-liquid heat recovery duties.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V9l6-4 6 4v12M6 13h12"/></svg></div><h3>Flue Gas Economisers</h3><p>Condensing and non-condensing economisers recovering heat from boiler and engine exhaust.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg></div><h3>CHP Heat Recovery</h3><p>Jacket water and exhaust circuits engineered to feed absorption chillers and heat networks.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 3v18M5 8l7-5 7 5"/></svg></div><h3>Cooling Towers &amp; Dry Coolers</h3><p>Heat rejection plant matched to absorption machine condenser water requirements.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h3>Controls &amp; BMS Integration</h3><p>Sequencing, optimisation and remote monitoring across the whole heat recovery system.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M15 8h5v5"/></svg></div><h3>Water Treatment &amp; Pumps</h3><p>Complete balance-of-plant: pumps, dosing, filtration and pipework packages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap reveal">
+    <h2>Not sure which machine fits your heat source?</h2>
+    <p>Send us your waste heat temperatures and flow rates — we'll tell you honestly what's feasible and what it could save.</p>
+    <div class="btns"><a class="btn btn-orange" onclick="go('home','contact')">Get a feasibility assessment
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+</main>
+
+<!-- ============ SERVICES ============ -->
+<main class="page" id="page-services">
+<div class="pagehero">
+  <div class="wrap">
+    <div class="eyebrow">Services</div>
+    <h1>Specialist service for absorption chillers &amp; heat recovery plant</h1>
+    <p>OEM-level maintenance, commissioning and 24/7 support delivered by engineers who work on these machines every day — not a general HVAC contractor.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Absorption chiller services</div>
+      <h2>Everything an absorption machine needs, under one roof.</h2>
+    </div>
+    <div class="svc-grid reveal">
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/></svg></div><h3>LiBr Analysis &amp; Sampling</h3><p>Solution concentration, inhibitor levels, alcohol content and contamination checks — the chemistry that decides machine life.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h3>Vacuum Testing &amp; Restoration</h3><p>24-hour decay tests, purge system checks, leak location and vacuum restoration to protect capacity.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18"/></svg></div><h3>Annual &amp; Planned Maintenance</h3><p>Structured maintenance regimes tailored to your machine, duty and site — from single visits to full contracts.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg></div><h3>24/7 Breakdown Service</h3><p>Emergency response for lost cooling — diagnosis, temporary measures and permanent repair.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg></div><h3>Tube Cleaning</h3><p>Mechanical and chemical cleaning of absorber, condenser and evaporator tubes to restore approach temperatures.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div><h3>Leak Detection</h3><p>Helium and pressure-based leak location on shells, valves and gasketed joints.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M15 8h5v5"/></svg></div><h3>Performance Testing</h3><p>Capacity verification, COP measurement and heat balance analysis against design data.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div><h3>Controls &amp; Upgrades</h3><p>Panel upgrades, sensor replacement, BMS integration and control logic optimisation.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M14.5 4.5a4.5 4.5 0 0 0-6 6L3 16v5h5l5.5-5.5a4.5 4.5 0 0 0 6-6L16 13l-5-5z"/></svg></div><h3>Overhauls &amp; Repairs</h3><p>Major works: pump rebuilds, heat exchanger retube, solution replacement and shell repairs.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 3l7 4v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V7z"/></svg></div><h3>Commissioning</h3><p>Pre-commissioning checks, first start-up, performance verification, operator training and documentation.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></div><h3>Remote Diagnostics</h3><p>Remote monitoring, trend analysis and expert diagnostics — problems spotted before they trip the machine.</p></div>
+      <div class="svc"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 12l3 3 7-7"/></svg></div><h3>Spare Parts Supply</h3><p>Genuine and equivalent spares for major absorption chiller brands, held and sourced across Europe.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="eyebrow">Beyond the machine</div>
+      <h2>Complete cooling plant management.</h2>
+      <p>One contract, one point of contact for the entire plant room: electric chillers, cooling towers, dry coolers, pumps, water treatment, heat exchangers, BMS and pipework — delivered with trusted specialist partners under our quality control.</p>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg>Plant health audits with budget and asset-life planning</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg>KPI reporting and maintenance planning</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg>Subcontractor management and quality control</li>
+      </ul>
+      <a class="btn btn-orange" onclick="go('home','contact')">Discuss your plant
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="im reveal"><img loading="lazy" src="https://images.pexels.com/videos/31319207/pexels-photo-31319207.jpeg?w=900&h=700&fit=crop" alt="Industrial cooling plant management services" onerror="this.parentElement.style.display='none'"></div>
+  </div>
+</section>
+</main>
+
+<!-- ============ BLOG ============ -->
+<main class="page" id="page-blog">
+<div class="pagehero">
+  <div class="wrap">
+    <div class="eyebrow">Knowledge hub</div>
+    <h1>Absorption chillers, heat pumps &amp; heat recovery — explained properly</h1>
+    <p>Field-tested engineering knowledge on absorption chillers, absorption heat pumps and heat recovery in industries. Written by engineers, optimised for humans.</p>
+  </div>
+</div>
+<section>
+  <div class="wrap"><div class="blog-grid" id="blog-grid"></div></div>
+</section>
+</main>
+
+<!-- ============ ARTICLE ============ -->
+<main class="page" id="page-article">
+  <div class="article-hero"><div class="wrap">
+    <span class="back-link" onclick="go('blog')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg> All articles</span>
+    <div class="cat" id="a-cat"></div>
+    <h1 id="a-title"></h1>
+    <div class="meta" id="a-meta"></div>
+  </div></div>
+  <div class="article-body" id="a-body"></div>
+  <div class="wrap" style="max-width:780px;padding-bottom:80px">
+    <div class="article-cta">
+      <h3>Need help with your absorption plant or heat recovery project?</h3>
+      <p>Catch Energy services absorption chillers and heat pumps across the UK &amp; Europe — and we answer technical questions for free.</p>
+      <a class="btn btn-orange" onclick="go('home','contact')">Talk to an engineer</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="foot-logo"><img src="data:image/jpeg;base64,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WugqPVsMU7JH0N5pDz0lwh6SROHZnxb5K71QrKE5QfFF8yG+iu+DrtW6ZZujNUVtVPNYtQRsp9RUTeZ/L/F1UfYJo/EHvHcVeeVbuqNN/bqKnqaWQU14oHGWjqsfMd3td4scOhHh5gLv2O6/bagZM+IwVLCY54HHJikHRzfPyPeCD3rKe0vXiRY/HX+DY99uj817/ev36npoiKMthERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREARFTKA8zUV8pdN2atulY7lp6WMvd4uPcB5k4HvUI9R3+r1Peqy7Vr+aoqX82O5g7mjyA6LNXEZqsufRaagf0GKmpx/mN+s/BYc0dpybVupbfaIcj5RJ98cPwIx1cfgF0ml0qml3z8foeW9rc+edmx0+nmovb4yf2+5mbh/0A0t+6q4RZc7LKFjh2DsdJ+we9SCAwurb6GC2UUFJTRiOngYI42Dsa0DAC7a0WTkSvsc2d/pGmw07Fjjw6rq/N+IREUBswiLiqKiOmhfLNI2OJgLnPecBoHeSh8bSW7KzSshjdJI8MjYC5znHAAHeVELdzXY1tqM/JXE2qhzFT/l/jP9+OnkAri3c3i+6ITWOxSubas8s9SOhqPIeDPr9iw3zLo9MwXX+NYufh7jy3tb2hjlf9LGe8V1fm/Je5H3lfdPNJTzRzQvdHLG4PY9pwWkHIIXAXKgetyzhFunuiZe1uuma305HNK5ouVLiKqYPxsdHY8HDr8VfShntPrE6R1jRyyPLaGsIpqkE9A0no73HB9mVMppyPFclqGN3FvLo+h7X2Z1Z6jhp2P148n/AA/mfSIioHRlD2Loih9Bc3VcPT07Qydvc4j5rvaOz2Y8F30wiexi4p9QiIhkEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBccrxGxznHDWgkk9wXIrP3Ru5smg77Vsdyy/JzEw94c/1R9ayhHjkorxIcm5UUztfSKb/QiNrO/u1Lqm7XMuLm1E7jHnuYOjR/igLM3DbptpjumoJW+s4ikhJ7gMOefpaPco8Y5RlTW2pswsegbHTFuJHwCeT85/rH610epzVWOq4+PI8u7J0PM1OWTZz4d5fN/wBZeYGFVEXNHq4RF0btdKWzW6pr66ZsNJTML5JHdwC+pNvZGMpKKcpPZI+L1fKDT9tmuFyqWU9LCMue8/QPE+SihuZu5X64nfR0pfSWNh9WEHDpvyn/ANHsHmvH3I3Irtf3YyPLobXA4impc9APxneLj9HYrKLui6XA06NW1lnOX0PKu0XaazMk8bFe1fi/GX+jk51QOK4uYpzrbHG7HNzL5Ll2X2qtitEN2fTvFvnmdAybu52gEj6foPgugXrFST6GUqpQ24lschf25U2NqdQu1NoSz1sj+aobH6CYntL2HlJ9+AfeoQ82VJnhjubprFere45bTVLZWjw524P0tWr1evip4vJnX9i8h1Z7q8Jp/quf3M9IqZVVzJ6wEREAREQBULgF0bzeKGwWusudzqoqS30cTpp55XYZGxoySStaW/3FpqHc6uq7TpqpqbNpBpMbWxOMdRWj8aVw6hp7mDu7cqamiVr2RHZYq1uyeert/wDbXQ876a96wtcNXH0dTxSenlafAtjDiD7VZTOM/Zt8vJ9007RnHM621Ab8eRar+jQT2d5QPAAJPTx7lfWBBdWVXlS8EbmNGbv6G3Bw3TWqLZcZu0wRzBsw/wDxuw76FeoOVo5hqpKWeOeCR8U8buZkkbi1zD4gjqCpncMvF7coLpQ6Q3BrjV0VU5sFFeJz98geejWTO/CaewPPUHtyOoguwnBbwe5JXkqT2lyJ8ovlrg7vX0qJaCIiAIio44BQFUyokcQ/FdqPZ7cN2mrVYrTW0zaOGp9NVOkD+Z/NkeqQMequbhy4qNRbza9qdPXayWqhpoqCSrEtI6QvLmuYMesSMesVN6PPg7zbkR97Di4d+ZLFFRpyAqqEkCIiAKhOFVfL/mlAYx13xC7eba342PUt9NFcxEyYwillk9R2cHLWkdxXLt/v7oDdC8TWjS98NdcIYDUviNNLHiMEAnLmgdrh8VBHjkJ/h2n/AJLpf9depwDf2Yrt4faSX9bErrxo9z3m/Mrd8+84DZKDkZRUb2BVVIshERAFb+q9cac0LRQ1upL1RWqknk9DHLVyhjXvwTygnvwCfcrgUQvsghxtnpr+Wh+pkWdUOOaj5mM5cMWzN/8AVFbUg/2QNP8A/jGqv9UTtT/9QNP/APjGrT8T2r59K0D5w+K2HoEf/RU9Lfkbgv6oran/AK/6f/8AFtXJT8Qe11XUw00GvLDJUTvbHGxlW0l7icADzJK08CVufnD4r29GSj7tNNnI6XKmP+lavksGKW+5kslt7bG7UHKqvkZ6+1fS1pbCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCxHxEVhp9BCIHHyisjYR4gAu/1VlxYK4mpS3TllYOx1Y4n3MP71bwVvkQT8zTdoZOOmXNeRHGkh+U1dPAB/GyNZ8ThT8o4W01LDC35sTGsHsAwoI6SaJtV2KM9Q+ugB/7xqnm0YWx1qXOC+JzHYOtd3dP3pfU+kRFoz0AoTgKMXENrx9fdW6Yo5f96UZD6rlPz5T1DT+aD8T5KR17uUdntNbcJf4ukhfM72NaT+xQAuNxmuddVVtQ8vnqZXSvce8uOT9a2+kUKdjsfh9Ti+2eoSox441b5z6/Bfc+C8BfJkXCXr4dJ5rpdzzBQOz6RevpfTdfq69U1qt0ZfPOeriPVjb3vd4AKujdG3jXN1bQWmn5yMGWd/SOFvi4/s7Spj7d7cWzb61/J6UemrJQDU1bxh8p8PJo7gtfnZ8cePCucjo9C7PW6hYpzW1a6vz9yKSbbWmTQQ0lyD5G2DkbIR6wk7fSe3m6qE94oKizXSst1W0sqaSV0MjfMHHw71sMI6KHfEjaGWzcMVcY5W3KlZM7ze0lh+gNWt0nIl3koSfXn8zp+1+mV+jV31rbg9X5eH6GKw9SK4XA4u1K/wDB+8D3+uo2B6lrw0WR1DompuMjS11yqnOZnvYwcoPx5lsNUmo47T8djneylDlqUJL8qb/bYzRLl0bgCQS0jI7QvE0XqAaisUNS4j5TGTDOB+O3oT7+h969S5VLKK31VS84ZDE55PsGVhzZa8ubdrjb3uPLVM9OwflNPX6D9C8/ys7uM2ml9J7r6bfY9vxcF34d1y/Js/rv9zOCKgVVtjVhUJwFVfD+zHj0QEFuPTdef09t24t07mQOY2vunIcc+T96iPl0LyPzfBQptdqrb5c6S2W2mkqbhWytgggjGXSPccAD3lX3v5qKXVG8+ubjK8uBucsEee5kR9G0fBgWXOBHR8N93Zr73Uxh7bBQOlhBGcTSu5Gu9obz/FbmG1FG5rpb22bEldkOD/SO39rpa7U9BS3/AFS9ofLJVMElPTO/EijPQ4/GIJPdjsWe6jSNhqaR1LNZLZLTEYML6SMsI8MYwvaaMNAVVqJ2Sm95MvxhGK2SIVcS/CHY5LBcNW6Bt7bdcqBjqiqtVOPvNTGOrjG38B4HXA6EA9AVBK22utvdQ2ktlFU11TJ0bDSxOlefc0Erd+5jXZDgCD0wexeZZdM2bTcBgs9qobdCe1lHTsiB9vKBlWqsyUI8L5kNmOpS3XIx/wAOtx1Rcdp9Pfdhba2gv1JGaWVlawsklYw4ZIQevVnLnPeCsoz1EdPE+WWRscbAXOe8gNaPEk9gVXHl7B1K1j8VXEHddx9XXLTNqrpYNHWqZ1OIYXcorZWHDpJMfObzAhrezAz2lQ11O6b25Gc5quPMmzqPio2l0vUSU9XrKinqIzh0dCx9Tg+GY2lv0ro2Ti82fvlQ2BmroqSR5wPl1NLA0/pObyj3la1NDbS623L9OdKacrLlDTu5ZZow1kTHduC9xDc+Wcr61xtNrXbX0J1VpyttkU7uWKaQB0T3eAe0lucd2cq4sOrfh4uZXeRPrw8jcfb7lR3Wkhq6GqgqqSZvNHPBIHsePEOHQrxtWa601oenp6jUl8obTDUuMcT6yURiRwGSBntOFq+4ct9rvs9rKhp5KuSTSNwnbFcKJ7ssjDjj0zB+C5ucnHaAQe7EpeO2xXfUWkNHMs9rrrk6Ovme8UVO+YtaYhgnlBwCq8sbhsUJPkyZXcUHKJG3i+1bZNYbxy3PT91pbnbjbaaMVFLIHs5282W5HeMj4rt8G2r7Ho7dmquGoLrSWuhfapoRPVyBjC8vjIbk9/Q/BYGu1kuViqvkt0t9XQVJaHiGrhdE/lPYeVwBx0PVVtNnuV7qTTWu31dfUhpeYqWF0rw0dpw0E46jqtn3a7ru2+RS433nHtzNwth3h0FqO6U1qtOr7LXXKpJENNT1TXyPIBJwB5An3K+QR2rV1wvaJ1RbN99HVlw03eKSjimlL56ihljjZ95eBlxbgdSFMriZ39ZslpGFlA2KfVV25mUEUgy2Jo+dM8d4bkADvJHdlaq2hRmoQe5ers3jxS5GVtX7haW0FSiq1LfrfaonDLflUwa5/wCa3tPuCxPNxmbPQ1HovulnkGcekZb6gs+PJn6FrF1Dqe7asu1Td77cai4XOoPNLU1D+Zx8vIeAGAF7VHtZrq42z7aUujr/AD20t5xUR2+UsLfEHl6hWo4MEvXkQPJk36qNs+iN3dE7jAjTGpbfcpgOZ0EcnLM0ecbsO+hXo45aVpCoq6ts1whrKKoqKK4UknNHNC4xyxPB7iOoIK2YcKW/0+7+mKq132Rn3V2VrfTvaAPlcJ6NmwOx2RhwHTOD34UN+I61xRe6Jar1N7PkyKfHGf6/NTnutlL9Tl63ARj+GK6/yJN+tiXkccpH8O8x8bXSn+csKaN15e9CPvE9hqzR1dzoXUElTGSJIonOa53IfwXHkxnuBOOquwi546ivIrSlw3cTNqutuInbTbysfQX3VdHHcI+j6SnDqiVh8HNjB5T7cLp6T4ntqtaV0dDbdXUkdZKeVkNax9MXnwBkABPkCtWVDoHV17oHXO36XvlbQHLzVQUMsjHeJ5g3r7VbrmOaXMc0hwOC1wwQR3EKBYMGtlLmSPJkue3I3mtcHDIKqoVcDO9Vxv8AFX7fX2sfUzW+D5VbJpncz/QggPhJPUhuWkeAJHYApqg5Co21uuTiy3Camt0Cog/ZAv7Gemf5Z/2Mil8ogfZBDjbTTP8ALP8AsZFnjf5YmF3sMgBY2B1+tIIBaauEFpGc/fG9FucbonTZLv8AgC0Yz2fIYv6K0v2mpZRXa31UufRQVEcr8DJw14J+pbJhx1bT5P3y+jJ77cf6Su5sJya4UV8WUUnuzPn3FabB/wCQLRn/AAKL+iuVmkdPxPa9ljtbXtIcHNo4wQfEdFgAcdW0/wD0t9/ycf6SvvaniN0VvJeq206afcjV0dP8qkFVSmJvJzBvQ5OTkhUHXZFbtMtKUW9kzJt4vdu07bKq53WsgordSt55qmd4ayNucZJPZ1Ksb+qC2u/6/ad99axeTxQHl2C144f/ACH+0YtSLzzgjsz0U2PjK2LbZFbc62lsbsL9rPT+l7KL1ebzQ0FqLQ9tVUTBjHgjI5SfnZHcMrEruMfZxtZ8n+6tx649KKGoMfx5PpWuXV+tNWbzaipnTxVlwnggZT0Vto43ytpomNDQGMGfDJPeSrXvenrxpmpbT3q1V9tqHjmbHW074XOHiA4DKnhgx6SfMjlky/KuRud0rrTT+t7a25advFFdKEnBlpZQ8NPg4drT5HC97K01bS7qXraHWdFqG0zSehY8NraQO+91cGfWY4dmcZIPccFbg7NeKW+WihulFIJKOugZUQv/ABmPaHNPwKq5FDqfmieq1WI9InCxprTf7bfb+pfSX7Vtvp62Po6liJnmafAsjDiPfhRf4vOKC50F5rNvtF176T5MPR3a5QOxIXkdYI3D5oAPrOHXJwMYKh1pPR2o9f3c2zTVnrLtcXD0j2U7OYtGfnPcejR5uIUlWJxR45vZGFl+z4Yrdmzi28YmztyqWwDVRpnOOA+qo5o2H9IswPeszWW/2zUdvhuNouNLX0EwyyopZWyRu9hHRajtW8Pe52hbXJdb5pCugt0Q5paiIsmZEPF3ITyjzPRdbaLeXUuzeoorpY6l7qJ7h8str3feKtneCO52Oxw6j2ZCklhxkt62YLIae01sbiycDKx9dd8tuLJc6q2XHW1jpa+kkMU9PNVNa+N46FpHcQvc0drG2680raNRWiX0luucDZ4yfnNz2tP5TSCD5grU5v23+vduFn+7VT/PKr49HeycXy2JbbeCPEjbNpjXWm9Z0dRWaevlBdKWnf6OWWkmEjY3YzgkdnTqrE1DxP7TaZrX0ddrSgdURu5XtpWyVAafN0bXD6VrNtG6N2sG2F00Pa5paWnvFf8AK66eN3K6WIRta2Hp+CSCXeOAOzKx++VrY3AEAAdysrBS3cnyIXlN7JI3k0lXFW00NTA8PgmY2Rjh+E0jIPwVs613N0jt3TMqNUagoLWyQZY2ol++SfmsGXO9wWLN3d64tldnbNcoWxz3640cNPbKd/zTJ6JpMjh+IwdT4kgd61iaj1HdtW3mrvN9uE9wulU4vlqZ3Zc4+A8AO4DoFBRiuzm+hLbeocvE2fw8ZWzk1UIBqiRoJx6V9BUNj9ueTs9oWWrZrrTd505JqK33y31ViijdLJXRTtdFG1oy4uP4OB2g9i0/2DbHW+pqA3Cy6SvdwocZFRTUUj4yPJwHX3Ls6a1rqXbOXUFshFRSx3Wimt1xttU1zGvbIwty5hxh7c5B7fcSrEsKD9iXMiWS/wAyNpruIPa1h9bX2nx/+41XFd9xtJ6fs1vvN01DbqO03ENNJVzzhsU4c3mHK49DlvX2LS08kscCO5bOtX7e/wAI/CNaLRBF6S402n6KvoQB19NFC1wA/ObzN/SUNuNGtrn1JK7nNPl0Mlt4gdrnHA19p/JOP+OtWR43tkaHNcHA9QQVoz5uZuO5wW3Thu1wdwNm9LXWSTnrY6YUVX16+mh9Qk+0AO/SXzIxlUlJMU3d49mjLROFj2t3021t1ZUUdXriww1dNI6KWJ9YwOje04c0jPaCCF6u5Wr4tBaE1FqSYjFropZ2A/hSBuGN97i0e9aY6qrmq6iapqHl8873SyvPa5zjkn4kr5j4/epts+3Xd3tsbp9Ka90xrllVJpu+0F2ZSlrZnUcwkEZOcA47M4KuNYB4P9v3aG2Ys8s8XJcL6TdKjIwQHgCNvuYGn2krPyrzioyaRLFtpNhYS4l6X0mkLbOP7VXAf4zHfuWbVjDfy3ur9uLg9oyaWSKf3B2D9BU+FLhvg/eavXa3Zp10V/5f7cyKemJm0uprLO44bFWwPPsEgU+m9i13iV0MrJGnrG4OHtBytgVlrm3O0UNaw8zKmBkoP5zQVs9ZjzhI5bsLYuG6v4P6nfXl367Ns1vNScZMjImg97nODR9a9RYx3lubqK2WqNpxzVYlI/MGfrIXLahk+i407vI9KwMb0nIhT5s7u9NW+k2x1HI3o50Aj9zntB+gqD5kU4t1qU3va7UDYRzF9F6dmO/lw/6goKF/ZgrrtEknS2vP+DyztrXL0uvfpw/yznMiuvbzQVfuHfmW+kzHTR4fU1JGWwsz9Lj3BWYHdfE+AU69odDx6I0ZRUr2AXCpaKirfjqZHDPL7GjA9yt6hlej1+r1fQ1egaOtQyNp+xHm/t8y4tJ6TtejrRDbbVTiGCMZc78OR3e5x7yV7uExhVXKSk5PeXU9ZrrjXFQgtkiiinxWPYNQ6eaPn/JJCfZzjH7VKtx6KG++Etbr7dt9os1PJWzUUTKNjIhn1hlzyfAAuwSfBbDS1+PxeCTOf7US/wCj3a5uTSX1MbaW0/W6sv1DZ6BhdUVTw3OOjG/hPPkBkqfun7NTaes1Da6NvLTUcTYmeYA7T5nt96sHaDaWn27tpnqSye/VTQJ5h1bG3/o2Hw8T3lZEud0pLNQT1lZKIqaBvM5x+oeJ8l81POja+u0Y/wB3HZrRZYdfFNfiT8PL3Fl7u39tr00+iY4fKbifRAd4YOrj9Q96xJt1Vmj1paHA4D5TEfY4ELoav1PPqq9zV8oLYvmQxn+1sHYPb3lV0Vl+rbIB2/Ko/rXkObqXpmpwth7MWkv1/k9xwtM9D0uddntSi2/06fIlW3sX0qNCqvTTzEL5d1x7QvpfL/mnxX0Gl/c+mdSbkayhf89l4rAc/wDbPUoPselbG3U2uaMkenko6aVo8WtkcD/OCxNxc6Nl0hvlqF3oy2kvRbc6d2OjhIMPHue168zhl3Kg2q3btF3rpfR2isa6grnnsZFJjDz5NcGuPkCtzZHvKPV8jXQfBbzNto7FVcUMzJomPY9r2OAc1zTkOB7CD4LkytMbEqi8XVWqLdo3Ttyv12qGwW23QOnmkcewAdg8STgAd5IUXNL/AGQDRte4R6i0/drQ8n+Mg5aqP2nHK4e4FZwqnNNxRi5xi9myXUkYe0tOcEY6Hqo0X3gg2orTNUtF5t5JL3yRXDLRnqSfSArMNh3a0lqrRNbrK0XVtVp6ijlkmqfRuZyejbzPBa4A5AWsfejiB1XvFeKmSrrp6PTwefklpgkLYmMz0L8fPeR2k+7AU+NVZKTUXsRXWQivWW5P/S2tNoNkNLW/SlNrayU9LbmuHLJWxyTSOLiXPeGdriT4LFvETxFbTa12q1Npyh1BFc7nVQA0ccVLKQJmuBa7mLQB2Hr7VFjbfhb3H3PtMN5tNspaGzz9Yau4z+hbMPxmNALnN88YPcrw1fwW6u0Noq+6ovGoLIYLRSuqnU9L6SR8mPwQS1oHb2qdVVRnu57sjc5yjyjyI1zuHo348Ct0m3dTJXaA0rUzOLpp7VSSPcT1JMLSStLEgzG72Fbo9sRy7b6PHhZ6P9SxM/wPmJ4mvfjnB/hzOckfamlx8XrtcB39mqt64/4Gn/WRrh46sN3uYe82im/nSKvAaS7e2s69BZaj+fGpX/8AV+Rgv85ssPWPOStVnF3q+XVm+moo3PJpbKWWyBuejRGMv+L3OW1QHEYytP8AxCUktBvhuBDK0h5vFRKM/ivdztPwcFWwEuNtk2VvwpGWOCbaW3a81tc9Q3qljq7dpxsZhp5RzRyVTyeQuB7Q1rSceJHgtk7GcrQBnooRfY87tTm2a6tPMPlbaimqw3vLC1zM+4j6VOIYAUeXJu1pmdCSgtiLe/HCBS7ta2odRWi6UthfNG5l1IpzIahwI5JGtBA58ZBJPXDVd2zPC3pTZi6G9W6vutfe3QOp31FTKGRljsEgRNAHaAepOFnCSqhikjjkljZJKSGNc4AvI8B3r6LgQVE7puPDvyM1XFPi25msrjnx/Do8DutVL/rq2OFDbi3bl7wUFBeIW1Fpt1PJcainf82fkLQ1jvEFzmkjvAIVz8cwzvtN/JVL/rr1uAdv9eC7n+8sv62JbJNrG3XkU9t7tmbHIKdlPCyKJjY4o2hrWMHK1oHYAB2Ba6ePLQ1v07uBYtQW+njpzf6WT5U2NuA+aJwHpMeJa9ufHC2Ojq1QR+yG/wDGtvs/iVv1xKlhtq1FjIX4bMD8J9xltvEFot0TiPlE0tM8Dva+F4I+o+5bZY+rQtR/DCM7/wCgv8OP6p623xfMUmf/AJF8DHF9g+iof/ZBXY210uPG8/7F6mCVD37IKAdttL+P25/2L1Djf5YklvsM16xMfNLHFG1z5ZHBrGNGS4k4AHmsgfwEboE4G32ps/yfJ+5Wbp1nPqOzDxrYB/pGrdwxoy4/lFbHJyZUtJIqUUqxNs08nYXdIf8Aw91L/k+T9yk5wRba6y0VuJqCr1Hpe72mkntPoo5q2mdEx7/TMPKCe/AJ9ynbyjwymAM4Co2ZcrI8LRZhjqD3TMPcUf8AYA15/gA/WMWpMkNBPcFtv4oG8+wevW/3vz/pGrUnKzDH+wq1gew2QZXtI2u8L+19q272rsU1PTRC8Xmkir66rDR6SR0jQ9rObt5WggAdnae9e3xB6Atu4W1GpbfXQRvqKajlrKOZw9aCaNpc1zT3Zxg+IJVz7Y9dutJD+9FH+pYu1r0f+xGpfO2VX6py17k+84vHctqK4djSu0ZaD4hbSthtVm1cLFg1DUu5vtRZ6iQ83eIHSBo+DAFq1a7EbPYFsY2yop7nwOz0tOCZprHcg0Dv++TH9i2eak1Fe8pYr5s133C4VF1rqqvrJHS1dZK+eaRxyXPeS5x+JKnfwybtbObT7XW6hrtT0lLqKvzVXQmmmL/SEnlYXBnUNbgDBx2+KgP3A92FJDRHBlrPXuk7PqS2X7TzKC607aiJsskvO0H8F2GYyDkH2LPIjBxSm9kY0OfE3Fbkxqjiz2YlifFJrGlkjeC1zHUk5a4HoQR6PqFrR3Nbp2PcDUY0lUMqNNPrHyUEjGua30TvWDQHAEcuS3qO5SI/3P8A3APbqHTf/eTf0E/3P/XwODqHTYH/AGk39BQUump7qRLYrJ8nEytwBannuW32pLBM8ubZ7g2WAE/Njmbkj2czHH3qH+/x5d7dwR/fmp/nqe/C7w/XzYxmpvt1c7fWm7GD0XyIvPJ6PnznmA/GHYoCb+5dvduFn+7NT/PKY8k7pOItTVUVIyPwibI27d3WFwr9QQmfT1hYx8tNkgVMzyeRjiOvKA1ziB24A71sloNH6ftNE2jorJbKakY3lEMNJG1gHsAUT/secYbovWbwBzOukQJ8hCP3qZrhkFVcucnY15E9EUoI1p8dOqH3Pd+lsbSG0lht0UTIx2CSX74447vV5B+irP4UdraHdTdenpbvAKiyWiB1wq4HfNm5XBrIz5FzgSO8Ahenxq2uWg3/AL1M8O9HXUlLUxk949HyH6WFXPwE6hpbTuveLXUPa2W8WtzIM/hPjeHlo/R5j7le5xxt4+RW2Tv9Y2N08EdNBHFCxscUbQ1jGDla0DsAA6AKNfGZtNbdXba3HVUVLGzUOnmCobUtbh8tOCBJG494APMM9hHmVJlpBb5FYn4l79S6e2O1vUVT2tFRb30cYJ+fJL6jQPPLs+5ayqTViaLk0nFpmo5+OV3TuW4/aBudptC+P2kov1LFpvcPVd7FuT2caRtRoQf3jov1LVfz+kSridWaxeI3btu2m8GorVDGY7bUy/L6Id3oZcuAH5ruZv6KkLwAa7EVRqnRM8uPSBt0pAT3jDJQP9Gfirn4+tvhctI2TWlLFmos0/ySrcB1NPKfVJ8myAD9MqIGxOtzt3u3pW+ueWUrKttPVecEvqP+Adn3LNPv8f3/AGMGu6u+JM/j01uLRtzZ9MwSYnv9Z6SUA9TBBhx+L3M+Cg1tToeXcfcfTmmIw4suFWxs7m/gQt9aR3uYHLKfGbrQ6r3rr6CGTnotPQMt0WD05/nyn/Gdj9FZP+x/6A+V3nUeuKmL1KNgtlG4j8N+HSkexoYP0ivkPwcffxMpfiXbE9aOlio6aKngY2OCJoZGxo6NaBgAewBc6oOnRVWqLwXk6mtLL7YLnbH/ADaynkh9hIOD8cL1lQr6m090YWQVkXCXRmu6aN8EkkEzS2WNxY9p7Q4HBCmJsRqAXrby3xvfme3l1I8Z64b1b/mkfBR93z0wdNa/rZI2FtJcx8riOOmT88e52T7wvf4cNVttOqqmyzvxBdmD0WewTMyQPe3I9wXR5q9JxVZHw5/c8w0Kb0vV3j2ck94/b+CWGVhvfRx5LKPweaX6mrMWcjzWKd9KUusVuqQMiGpLSfAOaf2gLge0EXLTrdvJfVHtfZ6SjqNW/n9Uz3durrFqPRUFPNh7oWGjnb4gDA+LSFCbWOn5tI6mullqAQ+jmcxpI+cztY73tIKz3thq9umr+IqmTlt1diOUk9GO/Bd+w+RXr8R22b9RWxmqbVFz3G3x4qY2DJmgHXmHiW9fcT4LY9jdYjdRGEnzWyfxXR/NHOf8jdnZxm7K103kvg+q+TI6beW5t615pyheAY5q6LnB72h3MR8AthbOzs7Vr42qrmUG5Olah5+9iujaT+ceX9q2EN7F0GsNuyPwOa7HxSosfjv/AAfSIi1B15xzMMkb2Nc5hcCA5va3zXg6Z0XZtJQystlG2OWdxfPUPPPNO4nJc956nr7l2r9qe1aapvlFzq44Gn5rScvf7GjqVhvU++FbWc8FigFJF2fKJgHSH2DsH0rXZusY+DFq2fPyXX+/E2GDoeRqM1Oqvfb8z6L5/Yy9qPVVr0tSGe4VLWHHqRN6ySHwA/8AQUd9aa9rtY1Q9IDBQRHMVM09B5uPeVa1bcam4VD6irqJJ53n1pJHFzj711+dcDquv3Zy7uPqw8vF/H7Houj9m6cB97N8U/PwXw+5z86vPaujNdri3dMtg55neWG9PpIVi8yzdsRYy2G4XqRn8aRTwk+A6uPxwPcquiYzyM6uK6J7v5FrX71jafZJ9Wtl8+RmgKqohK9YR5AVTC4aedlTH6SN3MzJAI78HC5l9Pie/NEf+K3Y127+h21FphadVWTnnoR2fKGEevAT+VgEflAeJWraaKWlnlgqIpIZ4nmOSKRpa5jgcFpB6gg9y3kEZ7VH7fLhO0pvDNLd6d7rHqlw619PGHR1B7vTR9OY/lAg+ZV3Gyu7XBLoV7qOPmupDrZ3jA1htbQU9lrYItQafgHLDBUyFk9O38WOXr6vg1wOO7CztP8AZDNPCjLoNF3d1Zj+Lkqomx5/OGTj3LAWquC3drTU8gpLRS32lafVnt1S3Lh+Y8tcPgVZbeHHduSX0Y2+vodnGXQAD4k4Vlwx5viIVK6PI9jeriQ1bvW5lLcHRW6wQv8ASRWujJ5C4djpHHrI4d2cAdwWOtF6NvG4Gp7dpyxUrqm518gYxuPVYPwnuPc1o6krOmiuB7c7Uc8Tr1HQ6coScvkqphNKB5Rxk9faQpy7MbCaW2UtL4LNC6pulS0CrulSAZ58fgjHRjM9jR78nqvk8iuqPDWI0zse8y1dbbYx6G4WtR6MsLXSOobJKC8Nw6oePXlfjxd6xx54WrHHO09ehHQreTLEyWNzHta5jgQWuGQQe0EeCgHvRwOX2nvVZdtuTT1lqqXmX7UTSiKamJ6lsbneq5ngCQR2dVDiXxi2pvqSZFTaTj4Gedm+JDbS57f2GnqdR22zV9voYaaooa6UQGJ0bA08vN0c04yCM9qw7xW8UWmtR6Rq9EaLrRc3XEtbX3CIEQsia4O9GwnHM5xAyR0Az4qO0fDBu/NVCmGg7mHk45nuiaz/ABi/Cz3tpwO3eitN2uus30kt2NDOy22iCXnY2odG4MfNJ2dHEEAZGepPTCz4KK5cbluOK2ceHbYhRIPUf7Ct0O2frbdaQ87RR/qWLW+3gr3idGA6x0GcYP8AwlD+9bHdq7bdrNtzpa232nbT3eht8NLUxNkEgD42hvRw6EHAPvWGbZGaXCxjQlHfiRA/j9sdRSbqWO7Fh+SXG0tiY/HTnikdzD24e34rCux26E+ze4NFqeKk+W07Y301VS83KZYXj1g09zgQCPMLZ7vbstZt7NJmzXJ76Wsp3+noa+Noc+mlxjs72kdC3v8AIgKBepeCbdmy1Ukdvt1vvVODhk9JWsj5h4lkhaR9Kkx7q5V8E2Y21zU+KJLfb3jA0TuPquz6XtltvcFyubnMYamKMRsLWFxy4PPc09gUd+Ova+qtmsKPX1FA51ru8bKWse0dIqlgw0u8A9gAB8WnyXa4duF/c7Ru7WmdSX+yU9Ba7dLI+Zzq6J78GJ7RhrHHPVwU79Q6XtWrLFXWS9UUVbbK6MxT08oy14P1EdoI6ggEKBzhRanXzRKoysg1PqahtpN0rxs7rOl1JZw2VzGmGppZCQyphcRzMdjs7AQe4gFTpt/HpttPahPV0N/pa3ly6kFK2T1vAPDsEeZwsPbo8BuorbWT1mgK+C621xLmUFdKIqmIfih59R48zylYWk4XN4o6j0B0Hci7OOZr4iz/ABg/Csz7i71myGHe1+rsdvfziBuu9mpqOsZDLa7Law5tvpGy5ewuxzSvcPwzgdnQAYHeTILgi1LuZqy83N9z1FcK3RNrg9EY64+m56h3zGMkcC4coy44P4o71Y+2/AlrW+1sM+tKmmsFrBBkhhlbPVSDwHLljfaSceBU+9E6Isu3umqLT2n6FlHbKNuGMb1c5x7Xud2ucT1JKiyLalDu4czOqE3Ljma6uOP+zrNk/wDNVL/rr1eAc53iu/8AIsv62JZB4p+HDcTdDdWS/wCmrVS1NrdQQQCSStjiPO3m5hyuOe8LvcJPD1r/AGp3FuV51Ta6aloJ7ZJTMfFWRykyGRjgMNOexp6rJ2x9H4d+ewVcu94tiag+aoH/AGQ7/jm3vh6Ot+uFTwPYoq8YWyWst3ZtIu0pQU9WLY2pFR6WqZDy85j5cc3b80qpjSUbU5E1ybg0iHPC+M8QGg/8Nd+qett0XzFr42J4Wdz9D7u6V1DerNSQWq3VLpJ5GV8T3NaY3N6NByepC2EMGG4UmZOM5pxe5jjxcY7M+ioefZBh/W50t/LB/UvUw1HTi62l1Tu3oyx2zS1JBU1lJcvlMrZqhsQEfo3Nzl3b1I6KGiSjYmzO1NwaRrItlYLfcqKsLef5LPHNyg45uVwdjPuU4h9kQocnOgKvqc/8ps/8tYSdwWbxg4+0VvPsuUP71T+oq3k/uFb/APKUP71s7ZUW7OT/AHKdcbYdEZxH2RC39+gaz3XJn/lr7b9kOtp+doKuA8riz+gsFHgr3kBz9oqD/KUP71UcFm8Za4faK39n90of3qLu8bz/AHJOO/yJy8RlYK7h51rUtaWia1CUNJzgOcw4+lam5n5jf+aVt43Z0VeNUbI3/TFqgZLeau1spYonyBjXSDkyOY9B2HqoAScF28ha4fc9RHIP/OcP9JY4lsIRabPt9cpSTSNk213TbrSI8LRR/qWLt6966L1J/JlV+qcvrQ9rqbLpDT9vrGBlVR26mp5WBwcGvZE1rhkdvUFc+rbfUXTTN6oqVgfU1VDPDE0nAL3RkAZ7upC17frFrwNJg/i2+wLarwpQRz8OejYZoxJFLT1DHsI6OaZ5QR8CoVDgq3kDWg2K39B/dKH96n7w+6Lu2gtoNL6cv0EdPdbfFKyeOOQSNBdK9ww4dD0cFsMy2EorhZVx65Rk+JGrvebbav2n3DvGm6uN4po5TLQzEdJ6ZxJjcD39PVPmCs28MnFdBtTafuT1ZS1VTp1sjpKSqpRzy0hccuYWE+swnJ6dQSe3PSbm8WyWmd6NPi2X2B0dVBl1HcIABPSuPe0ntaemWnofI4KgbrXgj3P0xUy/aelpNR0AJLJqOZsUpH5UchHX2FyyhdXdDhs5MxlXOuXFAlheONbaO3W51RS3iuuNRy5bS01BK15PgS8NaPeVFO5cbW5DtbVl7ts9LBZZXARWSpiEsLIx2Zd0dzntLgR17sKxaPhe3hrahsLNB3KNxOOaZ8UbR+k5+FITZ/gPqmXCnum5NXTOpoiHizUMhf6U+EsvQcviG9viF84cepbt7n3ium/IlBsluNc91dvbdqi52H7SyVjnCKETekbMxpx6VuQCGuOcA+GcnK1jb+jG9u4Gf7s1P88rb5TUMNDSw01LCyCnhY2OOKNoa1jAMBoA6AABa8N2+E3dTVm52rr5a7LRS225XKapp5HXCJhcxzsgkE5HsUWJZCM23yM8iEpRSXMyd9j1/wDcrWX8qxfqQpmKNnCDtFqraLTOpKHVdFBS1NdXsnhbDUNmDmCMNJJb2dVJNpzlQZElKxtEtSagkyHvHRtFWam05btcWmnfPWWFjoa6Ngy51ITzB+O/kdnPk4nuUArJebhp270N3tVZLSXKhlbPT1ERw6N4PQj93et3c0bJWOY8Ncxww5rhkEeBUSt1eBnTGqrjPc9I3Q6brZyZH0T4vS0jie0taCHRjyGR4AKzjZMYx4J9CG6lt8UCxtLfZBqultTItSaObWXJjcGooKoQslPiWOaeU+wkLBG+HEVqXfKqp4a2GO3WKjeZKe2Uzi8c2P4yRx+e4DPXAAGcDqVkv+oB1/8AKhGdRacFNnrMHzZA8eXk/asj3nhj0tsVslr2+1dY676mdaZKdtfMwRxwekwzliZk4JzjmJJ7umSpVLHhJOC5mDjdJbS6ECndGO9hW5LZw52p0Kf7x0X6lq02SEBjvYVuY2iidT7X6JheCHx2Wja4HuPoWr5qHSJ8w+rO/r/SNLrvRt703WtBp7tSSUxcRnkcR6rvaHYPuWmO622qsd1rbXXRmOtoJ308zD2texxaR8Qt4Lj0K1fcbWkqPTW9tRWUToh9vaOO4TQsPWOXJjcSO7m5ObzyVFg2es4eZJlQ3SkR+q62e4VU9XVzST1U7zJJI88z5HE9ST3klbceHjb9u2u0mm7I+MMrnQfK6zp1M8vruB9mQ39Fa2uGzb7+EbeTTdrliMlvpZfthWAjI9FDh2D5F3K39JbdWN6Zws8+zpBGOLDrI+0RFri4EREBirfnRLtWaNkqaWPnuVqJqIgB1ezHrt+Az7QFD6guVRbq2lrqSQx1NNI2WN47nNOQtijmhwIIyoab37bu0TqN1dRRYstzeXxYHSGTtdH+0eXsW70rJWzon8jg+1umSUln0+HX+H/H6EqdEarptZ6ZoLxTED5Qz76wH+LkHRzT7CuHcCzOvukrpSRt5p/RekiH5bfWH1Y96i9shuWNEX42+4SltkuTg17iekEnYH+zuPuPcpigiRgLSC0jII7CFqtUwEuOmXsyT/RnUdndZ9KqhkRfrwa3+K8fgyFBfzdFmna3cxgihsV7nDcYZTVMh6Y7mOP1H3KyN0tKHSup5jEzFBXEzwHuGT6zfcfoIVkc/ReP0X5GkZbS6xezXg0e834uNrmFFvpJbp+Kf95MyDu3sLU0da7U+iafL45BUS26L5zXg83PF5ZGeX4eCkLpHUEWqNO227RAtFVC172EYMcnY5hHcQ7Ix5LAGit3rpppkdHWtNwtzejWud99jH5Lu8eR+KzhpTXNg1O0i21LGVLiXvppAGSA95x3+0ZXpWH2ix9SrjBy2mvB9f8AZ5Lldkr9GvnbGPqS67dPj7i6srHO5m5kej4hQ0IZNeJm8wDurYG/jO8T4BX1cq+O3UFTWTHEVPG6V/saM/sUMLveKi+XOruVU4unqpDI7r2Z7APIDAWt7Q6pLCpUKval+y8zfdl9GhqF8rLl6kPDzfgvudi43esu9U+rr6mSoqXnq+R2T7PIeQXV9IutzqocvN5SlN8Unuz1aFMYRUYrZI7HPlVDl1w5enZLPX6guEdDbqd89S/ub2NHiT3DzXyFcpyUYLdsxslCqLnN7JeJ29PWOr1Ld6a20bSZZj1d3Mb3uPkFLax2emsNqpbfSt5YKdgY3xPiT5k9ferc0BoOl0XbuXLZrjOAZ58dv5LfBo+lXmOi9K0HSPQauOz25dfcvL7nk3aLWv8A5G5Qq/xx6e9+f2BKtnWF5loKSnoKFw+211k+S0oHXkyMvkI8GNy73Ad69e73ajsluqbhXzsp6SmYZJJXno0BWNt7HV6suFTra5wuhFUw09rpn9sFLnPOfypCAT5ALpq4cnZLovqchkXesqIe1L9l4v8Ahe8v+gpI6Cip6WEERQMbG0HtwBhdpUAwqqItJJLZBERD6UIynKPBVRAMYREQBMIiApgeAQhVRAU5QqoiAJhEQBERAEwPBEQBERAEREATCIgGAiIgCIiAYREQDCphVRAFTHkqogCIiAYREQBUwqogKco8FVEQBERAUIBTGAFVEBGPjI1VuNonSNtvei7pNRWpkjoLo+nhY6WIOx6OTnIJa3OWkjvIUE9Eb2ay0Prin1fDd6m43JgdHM24zPmbUxOPrRuyc4OAemMEArb9cLfS3SjqKKtp4qmkqWOimhlYHMkYRgtIPQghQy3L4BqK5V09foK9stjJXF32suDXPhYT3MkGXNHkQ72q9jXVxjwWIrXVzb4oM79o+yBaRloWuuulL5TVoHrR0r4poyfJxc049oWAeIPituW81AzT9stjrNplsrZpY5JBJPVvb1bzkdA0HryjPXBJ6LsVXA9u5BKWRUllnYD/ABkdxAHt9ZoP0K5tJ8AOtbjUxu1LfrTaaPPrilLqmYjyGGt+JUsVjVviTI27prhaMAbTbcXHdjXto01b4nOZUSh9XMB6sFO0gyPce7p0HiSB3rcXR0sVBSw08DAyCFjY42j8FrRgD4BWLtJsppTZqzOoNOUjvTzYNVX1BDqipI/GdjoB3NGAFkRzchVMm/vpcuiJ6au7XMinvbxiS7R68umk2aQbcZKWKKSOqdXGNrudgd1ZyHszjoVAXcLXt53L1dcdTX2VslwrnA8sYwyJgGGxsHc1o6fT3qc+/nB/qHdrciv1VbNR2ujp6qGGMQVUUhc0sYGk5bkHOF4mhfsfdJRXKGq1lqj7YUkTg51BboHRNl8nSOOQPYAfMK1TZRVHi8diGyFs3t4HpcA+277Vpa864rYCya9PFJRFwwfk8ZPM4eTn9P0FMoLpWq00Vkt9Lb7fTRU1FSRthhgibysjY0YDQO4ALuqhbY7JuTLUI8EVFBERYGQREQBeLqrTNBq6x1dpuUXPTVDcZHzmO7nNPcQV7SL7GTi90YWQjZFwmt0zX7rrRdy0HfprVcmZAy6CcD1J4+5w/aO4rN2w+8rGx0+ldQVAaW4ZQ1ch7R3ROP1H3eCzVrvQdq1/ZJLbc48EetBUMH3yB/4zT9Y71CnX2grxt7dTRXOImB5Jp6tgPo5x5HuPiO0Lf1XV51fdWcpf3mefZWFk6Dk+lY3Ot/3Z/wAMmrrrSVPrOxS0Ehayob69PNj+Lf3e49hUTbrbauyV89BWxOhqoHcr2O+seI81em0PEH9rmwWLV0znUowynuTurox3Nl8R+V3d/isz662/tu4NuiqqaWJleGZp6yM8zZG9oDiO1vn3Lgu03Zyd34la9df/AKX3PYOxXbGhR4JP8N9V4xf2ItB5XJFVSU0rJoZHxyxnma9hwWnxBXPfbHcdN3GSguVM6CoZ2A9jx4tPeF5hevM5QnVNxktmj2WDrvgpxacX+jM+6f3Al1toS/2eseDe4aCUtd2GoZy/O/OHf8VH8SZaCPBdy1XWps9xp66kfyTwO5mnuPiD4gjoQuvVmF1VM+nYWQPcXMYevID15fd2LY5mdLLqrdj3lHl8V4MoadpkMC61VLaE9mvc/FfDxXzKB2VyjquuDhSE2e2wghoqbUN4hbLVTASU0DxlsTO55He49o8Fhp2nWZ9vd18vN+Rlq+qU6ZR31vPfkl5sszRez131L6Kpr+a3W12Dzvb99kH5Le72n6VIXTWk7VpSiFLbKZsbT8+Q9XyHxc7vXsgYC+sgL0bTtHx8FbwW8vN9f9Hkmq67lak9rXtH/wArp/spjC6N3vNDYbfPX3GqipqOBvM+WR2AP/75d6sXXu9emdDskhdUivug6NoqVwcQfy3djff18liKz2HVu/8Adornfpn0GlYH5jhiy1rvKMH5x8Xns7vBdDTiOS7y31Y+f2OOy9WhCfo+MuOx+C6L3t+BdNHU12/OomvfHLTaCtkvN6N2WurpR2c3l5dw8z0zzDC2GNkbGhjGABrWjAAHYF07NZ6Ow26nt9vp2U9JTtDI42DoB+0+a9FRX2qb2gtoroi1g4kqE52visl1f8L3LwCIigLwREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREBTHVMKqIAiIgCIiAIiIAiIgCIiAIiIAV5V/07bNT2ya3Xajiq6OUetHIO/wAQe0HzHVeqi+ptPdGMoxmnGS3TIe7kcOF2086av016S6WsZcabtqIR7Pwx7OvkrO2/3c1JttOaaBxqLcHYlt1Vnlae/l72H6PEKeJ6hWVrLafS2umuddLawVZHSrp/vcw/SHb78raVaipR7vIXEjl8rs7Kuz0jT58EvLwLNtW5OgN36FltuRZS1xHq01YRHI13jHJ2H3HPkrQ1XsXdraX1FjlFxpO0ROIbM0fU73Y9i8HVfCteqN75dPXKnuEHaIKr71KPLPVp+hW3QXjd7aoiI0t2FHH/AGmphNTT48iM4HsIWr1Hs7gamuKLXF+j/vxN1o/bTV9EfBkVvh8dlvH9PD5NHl1dJUUFQ6Crglp5m9DHKwtcPcVwErIUXExbLvCKXWWj4anHQvgIOPY1/Ue5yodQbJ3wc7ay7WWR3a3kcWt+hwXF5fYXOqe9L4l/fiem6d/ynpN6SyN4P++ez+pj3m6dRlTU0rfKS+6boq62uZJG6BoDAccrg3BYfAg9FGc2TbGqOKXcUDPY2SlJP1BXlozSEFFUel01rK8u58cxpLY/0bx5l45D7SptH0vUtMsl3lO8Zdea8CPtBrui61TFU5O0477cnz3+Cfkd3XO92sNLTyU33BTQOaSG1M0rponeYLG4PxWK6jWG626srqOjjrm0zzyujooTTwtH5Tz+1ylvZ6CtpoQK25T1riO2WJjCPc0L1g0DsC7qjNhXHdVJS9/M8qy9HuyJtSyZcHklt+/L6EfNveGmjtckVw1VMyvqgeYUURPoWn8s9r/Z0HtUgKeCOmhZFDG2OJgDWsYMBo8AB2LlRQXZFl8uKxl/C0/HwocFEdvq/iymFVEUJdCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgGEREAREQBERAEREAREQBERAEREAREQBERAEwiICmFTlHgvpEB51XYrZXnNXbqSc/8A3YWu+sLonQ+mXO5jp+1Z/wADj/cvfRZKUl0ZG6oPrFfoedSWK2UGPklvpIMdnooWs+oLvhoC+kXxtvqZqKj0QwiIvh9CIiAIiIAiIgCIiAIiIAiIgCIiAIh6IgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgP/2Q==" alt="Catch Energy logo"></div>
+        <p><strong style="color:#fff;font-family:var(--font-display)">Turning Waste Heat into Reliable Energy.</strong><br>Absorption chillers, absorption heat pumps and heat recovery engineering for mission-critical facilities across the UK &amp; Europe.</p>
+      </div>
+      <div><h4>Products</h4><ul>
+        <li><a onclick="go('products')">Absorption Chillers</a></li>
+        <li><a onclick="go('products')">Absorption Heat Pumps</a></li>
+        <li><a onclick="go('products')">Heat Recovery Equipment</a></li>
+      </ul></div>
+      <div><h4>Services</h4><ul>
+        <li><a onclick="go('services')">Maintenance &amp; Breakdown</a></li>
+        <li><a onclick="go('services')">Commissioning</a></li>
+        <li><a onclick="go('services')">Plant Management</a></li>
+        <li><a onclick="go('home','contact')">Plant Health Audit</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a onclick="go('blog')">Knowledge Hub</a></li>
+        <li><a onclick="go('home','contact')">Contact</a></li>
+        <li><a onclick="go('home','contact')">LinkedIn</a></li>
+      </ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 CATCH ENERGY LTD</span>
+      <span>ABSORPTION CHILLERS · ABSORPTION HEAT PUMPS · HEAT RECOVERY · UK + EUROPE</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ================= ARTICLES ================= */
+const ARTICLES = [
+{id:'how-absorption-chillers-work',cat:'Fundamentals',img:'https://images.pexels.com/videos/18866539/pexels-photo-18866539.jpeg?w=800&h=500&fit=crop',
+title:'How Do Absorption Chillers Work? The Complete Engineering Guide',
+desc:'The single-effect and double-effect LiBr absorption cycle explained clearly — how heat becomes cooling, where the vacuum matters, and why these machines run for decades.',
+meta:'Catch Energy Engineering Team · 12 min read',
+body:`<p><strong>Absorption chillers</strong> are one of the most elegant machines in industrial engineering: they produce chilled water using <strong>heat</strong> as the driving energy instead of an electrically driven compressor. Where a conventional chiller might draw hundreds of kilowatts of electricity, an absorption chiller of the same cooling capacity typically draws only a few kilowatts — for its small solution and refrigerant pumps — because the "compression" work is done thermally.</p>
+<p>That single property is why absorption chillers sit at the heart of trigeneration plants, district energy schemes, hospitals and increasingly data centres: anywhere waste heat, steam or hot water is available, cooling can be produced almost for free.</p>
+<h2>The basic principle: water boils cold under vacuum</h2>
+<p>Everything about an absorption chiller follows from one fact: <strong>at very low absolute pressure, water boils at very low temperature</strong>. Inside the evaporator section of a LiBr (lithium bromide) absorption chiller, the pressure is held at roughly 0.8–1 kPa absolute — around one-hundredth of atmospheric pressure. At that pressure, water boils at about 4 °C.</p>
+<p>Chilled-water return from the building or process flows through tubes inside the evaporator. Refrigerant water is sprayed over those tubes, boils at ~4 °C, and in doing so absorbs heat from the chilled water — cooling it to typically 6–7 °C flow temperature. That is the entire cooling effect: water evaporating cold under vacuum.</p>
+<h2>The four main vessels</h2>
+<h3>1. Evaporator</h3>
+<p>As described above, refrigerant (pure water) evaporates at low temperature and pressure, chilling the water in the tube bundle. The vapour produced must be continuously removed, or pressure would rise and the boiling temperature with it.</p>
+<h3>2. Absorber</h3>
+<p>This is where lithium bromide earns its keep. LiBr is a salt with an extremely strong affinity for water vapour. Concentrated LiBr solution is sprayed inside the absorber, and it literally drinks the refrigerant vapour coming from the evaporator, maintaining the deep vacuum. Absorption releases heat, which is carried away by the cooling water circuit (from cooling towers or dry coolers). The solution, now diluted with absorbed water, is pumped onward to be regenerated.</p>
+<h3>3. Generator (or desorber)</h3>
+<p>The dilute solution is heated by the <strong>driving heat source</strong> — hot water, steam, exhaust gas or a direct gas flame. The heat boils the water back out of the LiBr solution. The re-concentrated solution returns to the absorber; the water vapour driven off passes to the condenser.</p>
+<h3>4. Condenser</h3>
+<p>The refrigerant vapour condenses back to liquid water against the cooling water circuit, then flows through an orifice back into the low-pressure evaporator, flashing down to evaporator pressure — and the cycle repeats.</p>
+<div class="callout"><strong>In one sentence:</strong> the generator and condenser replace the electric compressor of a conventional chiller. Heat in, cooling out.</div>
+<h2>Single-effect vs double-effect</h2>
+<p><strong>Single-effect</strong> machines have one generator and typically achieve a COP of 0.7–0.8, driven by hot water from around 80–120 °C — ideal for CHP jacket water, district heating and solar thermal.</p>
+<p><strong>Double-effect</strong> machines add a second, high-temperature generator. The vapour boiled off in the first generator is used as the heat source for a second stage, roughly doubling the efficiency to a COP of 1.2–1.45. They need higher-grade driving heat: steam at 3–10 bar(g), exhaust gas, or direct firing.</p>
+<h2>Why the vacuum is everything</h2>
+<p>Because the entire machine operates far below atmospheric pressure, <strong>air leaks inward</strong>, never refrigerant outward. Even tiny quantities of non-condensable gas blanket the absorber tubes, degrade heat transfer and raise evaporator pressure — which raises chilled water temperature and destroys capacity. This is why professional absorption chiller service is built around vacuum integrity: 24-hour decay testing, purge system maintenance, and leak detection. A machine that holds its vacuum will hold its performance.</p>
+<h2>Crystallisation — the failure mode to respect</h2>
+<p>LiBr solution has a crystallisation limit: if concentration climbs too high while temperature falls, the salt comes out of solution and solidifies in the heat exchanger, stopping the machine. Modern controls manage dilution cycles automatically, but incorrect shutdowns, cooling water that is too cold, or control faults can still push a machine over the line. Recovery is possible — but prevention through correct operation and maintenance is far cheaper.</p>
+<h2>Where absorption chillers make commercial sense</h2>
+<ul>
+<li><strong>Trigeneration / CCHP:</strong> converting CHP engine heat into cooling raises whole-scheme utilisation dramatically, especially in summer when heat demand falls.</li>
+<li><strong>District energy:</strong> absorbing surplus network heat in summer to serve cooling loads.</li>
+<li><strong>Process industry:</strong> using waste steam or exhaust to offset electric chiller load.</li>
+<li><strong>Data centres:</strong> pairing on-site generation with absorption cooling for resilient, low-carbon capacity.</li>
+<li><strong>Hospitals and campuses:</strong> reliable, quiet, low-maintenance cooling with decades-long service life.</li>
+</ul>
+<h2>How long do they last?</h2>
+<p>With disciplined maintenance — annual LiBr analysis, vacuum management, tube cleaning and controls care — absorption chillers routinely run 25–30 years and beyond. There are very few moving parts: two or three hermetic pumps and some valves. The machines that fail early are almost always the ones that were neglected.</p>
+<p>If you have a heat source and a cooling load, an absorption chiller may be one of the best investments on your site. And if you already have one, look after its chemistry and its vacuum — everything else follows.</p>`},
+
+{id:'absorption-heat-pumps-explained',cat:'Fundamentals',img:'https://images.pexels.com/videos/33906992/pexels-photo-33906992.jpeg?w=800&h=500&fit=crop',
+title:'Absorption Heat Pumps Explained: Turning Waste Heat into Useful Energy',
+desc:'Type I heat amplifiers and Type II heat transformers — how absorption heat pumps recover low-grade heat and why they are transforming district heating economics.',
+meta:'Catch Energy Engineering Team · 10 min read',
+body:`<p>An <strong>absorption heat pump</strong> does something that sounds almost too good to be true: it captures low-grade waste heat — heat too cool to use directly — and delivers it at a useful temperature, driven mostly by heat rather than electricity. For district heating operators, energy-from-waste plants and process industries, this is one of the most powerful decarbonisation tools available today.</p>
+<h2>The same cycle as an absorption chiller — used differently</h2>
+<p>Mechanically, an absorption heat pump is close cousin to the absorption chiller: the same four vessels (evaporator, absorber, generator, condenser), the same LiBr/water working pair, the same deep vacuum. The difference is which streams you consider the "product."</p>
+<p>In a chiller, the useful output is the cold water leaving the evaporator, and the absorber/condenser heat is rejected to a cooling tower. In a heat pump, that "rejected" heat <strong>is the product</strong>: the machine deliberately harvests heat at the absorber and condenser and delivers it to a heating circuit.</p>
+<h2>Type I: the heat amplifier</h2>
+<p>A <strong>Type I absorption heat pump</strong> combines two inputs:</p>
+<ul>
+<li>A <strong>high-temperature driving source</strong> — steam, hot water or direct firing — into the generator.</li>
+<li>A <strong>low-grade waste heat source</strong> — say 20–45 °C from flue gas condensate, cooling circuits, sewage or geothermal — into the evaporator.</li>
+</ul>
+<p>The output is a single large flow of medium-temperature heat, typically up to about 90 °C, at the absorber and condenser. The magic number is the COP of roughly <strong>1.7</strong>: for every 1 kW of driving heat you put in, you get about 1.7 kW of useful heat out, the extra 0.7 kW harvested for free from the waste stream.</p>
+<div class="callout"><strong>Example:</strong> a district heating plant burning gas in boilers at 95% efficiency retrofits a Type I absorption heat pump using boiler flue gas condensing heat as the cold source. Effective fuel utilisation rises well above 100% on a lower heating value basis — every unit of gas now delivers more heat to the network than it contains.</div>
+<h2>Type II: the heat transformer</h2>
+<p>A <strong>Type II absorption heat pump</strong> (heat transformer) solves a different problem: you have plenty of medium-temperature waste heat — say 80–100 °C — but your process needs 120–140 °C. A heat transformer splits the waste stream: roughly half is lifted 30–50 °C <em>higher</em> in temperature, while the other half is rejected at low temperature. Remarkably, it does this with almost no external energy input beyond small pumps — the waste heat itself drives the temperature lift.</p>
+<p>Typical COP is around 0.45–0.5 (of the waste heat input, about half emerges upgraded), which sounds modest until you remember the input energy was free and was previously being thrown away.</p>
+<h2>Why district heating networks love absorption heat pumps</h2>
+<p>Across Denmark, China and increasingly the UK, absorption heat pumps are being installed in district heating networks to:</p>
+<ul>
+<li><strong>Recover flue gas heat</strong> from biomass, energy-from-waste and gas plants — deep condensing recovery below the dew point.</li>
+<li><strong>Lower network return temperatures</strong>, which improves the efficiency of every heat source on the network.</li>
+<li><strong>Harvest large-scale ambient and waste sources</strong> — sewage works, industrial cooling water, data centres — into the network at scale.</li>
+</ul>
+<p>Because the driving energy is heat, absorption heat pumps avoid the large electrical connections, grid costs and compressor maintenance of electric heat pumps at multi-megawatt scale, and they use water as the refrigerant — no F-gas compliance burden, no GWP.</p>
+<h2>Absorption vs electric (compression) heat pumps</h2>
+<p>Electric heat pumps deliver higher COPs (3–4+) per unit of <em>electricity</em>, and are the right answer where clean electricity is cheap and available. Absorption heat pumps win where:</p>
+<ul>
+<li>Driving heat (steam, exhaust, burner gas) is cheap or free,</li>
+<li>Electrical capacity is constrained or expensive,</li>
+<li>Very large capacities (5–50 MW) are needed in one machine,</li>
+<li>Low maintenance and 25-year service life matter.</li>
+</ul>
+<p>Many of the best modern schemes use both: electric heat pumps for baseload with absorption machines recovering the heat that electricity cannot economically reach.</p>
+<h2>What they need to thrive</h2>
+<p>Like their chiller cousins, absorption heat pumps need vacuum integrity, healthy LiBr chemistry, clean tubes and well-tuned controls. The service disciplines are identical — which is why a specialist who lives with LiBr machines can look after both sides of your plant room.</p>
+<p>If your site rejects heat above about 25 °C and buys heat anywhere on site, an absorption heat pump feasibility check is nearly always worth an afternoon. The numbers are often startling.</p>`},
+
+{id:'heat-recovery-industries',cat:'Strategy',img:'https://images.pexels.com/videos/29959194/pexels-photo-29959194.jpeg?w=800&h=500&fit=crop',
+title:'Heat Recovery in Industries: The Complete Guide to Capturing Wasted Energy',
+desc:'Industrial sites reject 20–50% of purchased energy as waste heat. Here is where it hides, how to recover it, and how to build the business case.',
+meta:'Catch Energy Engineering Team · 11 min read',
+body:`<p><strong>Heat recovery in industries</strong> is the single largest untapped efficiency resource in most manufacturing economies. Studies across Europe consistently estimate that industrial sites reject between 20% and 50% of their purchased energy as waste heat — through flue stacks, cooling towers, compressed air aftercoolers, condensate, and warm exhaust air. At today's energy prices and carbon costs, that is not an engineering footnote. It is money leaving the building through the roof.</p>
+<h2>Where industrial waste heat hides</h2>
+<h3>High-grade sources (above 400 °C)</h3>
+<p>Furnace and kiln exhausts, gas turbine exhaust, incinerators. High-grade heat is the most valuable: it can raise steam, drive double-effect absorption chillers, generate power via ORC, or preheat combustion air.</p>
+<h3>Medium-grade sources (100–400 °C)</h3>
+<p>Boiler flue gases, engine exhausts, oven and dryer exhausts, steam condensate. Medium-grade heat suits economisers, absorption cooling, process preheating and drying.</p>
+<h3>Low-grade sources (below 100 °C)</h3>
+<p>This is where most of the volume is — and where most of it is wasted: CHP jacket water, air compressor cooling (a compressor turns ~90% of its electrical input into recoverable heat), refrigeration condensers, process cooling water, warm ventilation exhaust, data hall air. Low-grade heat is harder to use directly, which is exactly where <strong>absorption heat pumps</strong> and heat exchanger networks earn their keep by upgrading it to useful temperatures.</p>
+<h2>The recovery toolbox</h2>
+<ul>
+<li><strong>Heat exchangers</strong> — plate, shell &amp; tube, rotary and run-around coils: the simplest, fastest-payback measures, moving heat from where it is to where it is needed.</li>
+<li><strong>Economisers and condensing economisers</strong> — recovering sensible and latent heat from flue gases back into feedwater or heating circuits.</li>
+<li><strong>Absorption chillers</strong> — converting waste heat directly into chilled water, displacing electrically driven cooling. Particularly powerful in summer when heating demand disappears but the waste heat does not.</li>
+<li><strong>Absorption and electric heat pumps</strong> — lifting low-grade heat to process or network temperatures.</li>
+<li><strong>Thermal storage</strong> — decoupling when heat is produced from when it is needed.</li>
+<li><strong>Organic Rankine Cycle (ORC)</strong> — converting higher-grade waste heat into electricity where no thermal use exists.</li>
+</ul>
+<h2>Building the business case</h2>
+<p>A credible industrial heat recovery assessment follows five steps:</p>
+<ol>
+<li><strong>Measure the source.</strong> Temperature, flow rate, hours of availability, seasonality, contamination. A source is worth (mass flow × specific heat × ΔT × hours). Estimates kill projects later; measurement protects them.</li>
+<li><strong>Find the sink.</strong> Heat is only valuable if something can absorb it: space heating, process preheat, domestic hot water, a district network, or a cooling load via absorption. Match temperatures honestly — a 60 °C source cannot serve an 80 °C demand without a heat pump.</li>
+<li><strong>Match timing.</strong> A bakery's oven heat at 3 a.m. and its office heating demand at 9 a.m. need storage between them.</li>
+<li><strong>Price it.</strong> Displaced gas or electricity, carbon costs (SECR, ETS, CBAM exposure), maintenance deltas and any capacity charges avoided.</li>
+<li><strong>Engineer it conservatively.</strong> Fouling margins, turndown behaviour, bypass provision and maintainability decide whether year-five performance matches year-one promises.</li>
+</ol>
+<div class="callout"><strong>Rule of thumb:</strong> simple exchanger-based recovery typically pays back in 1–3 years; absorption-based recovery converting heat to cooling in 3–6 years; heat pump network schemes in 4–8 years — before grants and carbon pricing, which are increasingly decisive.</div>
+<h2>Why projects fail — and how to avoid it</h2>
+<p>The graveyard of heat recovery is full of projects that ignored fouling (exhaust streams laden with product dust), overstated availability (the "24/7" source that runs 5 days a week), mismatched temperatures, or installed equipment nobody maintained. The antidote is unglamorous: measured data, honest temperature matching, cleanable heat exchange surfaces, and a maintenance plan written before the capital is spent.</p>
+<h2>Regulation is turning waste heat into liability</h2>
+<p>Energy prices did the persuading in 2022–23; regulation is finishing the job. SECR reporting, tightening ETS carbon prices, heat network zoning that will oblige large heat rejecters to connect, and corporate net-zero commitments all convert "waste heat" from a free disposal into a reportable inefficiency. The sites that map and monetise their heat first will hold the advantage — in cost, in carbon, and in the contracts that increasingly ask about both.</p>
+<p>The practical first step costs almost nothing: walk your site with an infrared thermometer and a notepad, list every stream leaving above 30 °C, and ask of each one — <em>where could this go?</em> That list is the beginning of every good heat recovery programme we have ever seen.</p>`},
+
+{id:'absorption-chillers-data-centres',cat:'Data Centres',img:'https://images.pexels.com/videos/19895128/pexels-photo-19895128.jpeg?w=800&h=500&fit=crop',
+title:'Absorption Chillers in Data Centres: Turning Server Heat into Cooling Capacity',
+desc:'Data centres burn electricity to make heat, then burn more electricity to remove it. Absorption cooling breaks that loop — here is how operators are using it.',
+meta:'Catch Energy Engineering Team · 9 min read',
+body:`<p>A data centre is a machine for converting electricity into heat. Every kilowatt drawn by the IT load becomes a kilowatt of heat that must be removed — traditionally by more electricity, in chillers and CRAC units. That double payment is what PUE measures, and it is exactly the loop that <strong>absorption chillers in data centres</strong> can break.</p>
+<h2>Three ways absorption cooling enters the data centre</h2>
+<h3>1. Trigeneration: on-site power with absorption cooling</h3>
+<p>The classic architecture: gas engines or turbines generate power on site for the IT load; their jacket water and exhaust heat drives absorption chillers producing the chilled water. The result is resilient, grid-independent capacity where the cooling comes from heat that already exists. For operators facing grid connection queues measured in years, on-site generation plus absorption cooling can be the difference between building and waiting.</p>
+<h3>2. Recovering heat from neighbours</h3>
+<p>Data centres near energy-from-waste plants, industrial sites or district energy schemes can buy waste heat and convert it to cooling through absorption machines — cooling capacity with minimal electrical demand and a genuinely strong carbon story.</p>
+<h3>3. Exporting server heat via absorption heat pumps</h3>
+<p>The reverse flow: data hall heat at 30–45 °C is too cool for direct use in most heat networks, but absorption or electric heat pumps can lift it to network temperatures. Several European cities now heat homes with data centre waste heat; heat network zoning in the UK is set to make such export increasingly expected — and monetisable.</p>
+<h2>Why absorption suits the data centre environment</h2>
+<ul>
+<li><strong>Tiny electrical footprint:</strong> a few kW of pumps per MW of cooling frees electrical capacity for revenue-generating IT load.</li>
+<li><strong>Resilience:</strong> paired with on-site generation, cooling survives grid events; machines are near-silent with very few moving parts.</li>
+<li><strong>Refrigerant compliance:</strong> water as refrigerant means no F-gas inventories, leak checks or phase-down exposure across megawatts of capacity.</li>
+<li><strong>PUE and carbon:</strong> displacing compressor kWh directly improves PUE and Scope 2 emissions.</li>
+</ul>
+<h2>Design realities to respect</h2>
+<p>Absorption is not a drop-in replacement for every electric chiller. Honest design accounts for:</p>
+<ul>
+<li><strong>Chilled water temperatures:</strong> absorption machines are happiest at 6–12 °C flow — well matched to modern elevated data-hall temperatures, less so to legacy 4 °C designs.</li>
+<li><strong>Heat rejection:</strong> absorption rejects roughly 2.4 kW at the cooling towers per kW of cooling (versus ~1.3 for electric chillers) — tower sizing, water treatment and plume must be engineered properly.</li>
+<li><strong>Response dynamics:</strong> absorption machines modulate more slowly than magnetic-bearing centrifugals; hybrid plants use absorption for baseload with electric trim for swings.</li>
+<li><strong>Maintenance discipline:</strong> vacuum integrity and LiBr chemistry are non-negotiable; with them, 25-year machine life in continuous duty is normal.</li>
+</ul>
+<div class="callout"><strong>Hybrid is the pattern that wins:</strong> absorption chillers carrying steady baseload from waste or generated heat, electric chillers trimming peaks and providing N+1 — each technology doing what it does best.</div>
+<h2>The economics in one paragraph</h2>
+<p>Where driving heat is free or cheap (on-site generation, purchased waste heat), absorption cooling displaces electricity at the site's marginal power price for the electrical COP it replaces — typically saving 0.20–0.35 kWh of electricity per kWh of cooling delivered, plus demand-charge and capacity benefits. Against a backdrop of constrained grid connections and rising sustainability scrutiny, the technology increasingly pays for itself twice: once in energy, once in the capacity and permits it unlocks.</p>
+<p>If your data centre project has on-site generation, a neighbouring heat source, or a heat network on the horizon, absorption technology belongs in the options analysis — and the earlier it enters the design, the better the numbers come out.</p>`},
+
+{id:'absorption-heat-pumps-district-heating',cat:'District Heating',img:'https://images.pexels.com/videos/35817142/pexels-photo-35817142.jpeg?w=800&h=500&fit=crop',
+title:'Absorption Heat Pumps in District Heating Networks: The Efficiency Multiplier',
+desc:'How network operators use absorption heat pumps to condense flue gases, drop return temperatures and harvest waste heat at multi-megawatt scale.',
+meta:'Catch Energy Engineering Team · 9 min read',
+body:`<p>District heating lives and dies on two numbers: the cost of the heat entering the network, and the return temperature coming back. <strong>Absorption heat pumps in district heating networks</strong> improve both at once — which is why they have become standard equipment in Danish and Chinese networks and are now arriving in UK schemes.</p>
+<h2>Application 1: deep flue gas condensation</h2>
+<p>A biomass or energy-from-waste boiler sends flue gas up the stack at 120–160 °C, carrying both sensible heat and a large latent load in its water vapour. A conventional condensing economiser can only cool that gas down to the network <em>return</em> temperature — often 50–60 °C — leaving the latent heat below that point unrecovered.</p>
+<p>Install a Type I absorption heat pump, driven by a slice of the plant's own steam or hot water, and its evaporator provides a <strong>cold sink at 20–30 °C</strong>. Flue gas can now be cooled far below its dew point, condensing out the vapour and recovering 10–20% additional heat from the same fuel. Plants routinely move from ~90% to over 100% fuel utilisation (LHV basis). The heat pump then delivers the harvested heat into the network at 80–90 °C.</p>
+<h2>Application 2: pulling down return temperatures</h2>
+<p>Every degree of lower return temperature makes the whole network better: more capacity in the same pipes, lower pumping energy, better condensing at every plant, and more waste sources able to connect. Absorption heat pumps installed at energy centres can subcool the return before it reaches the boilers, using the extracted heat to boost the flow line — a neat thermodynamic shuffle that conventional plant cannot perform.</p>
+<h2>Application 3: harvesting large waste heat sources</h2>
+<p>Sewage treatment works, industrial cooling circuits, metro systems and data centres all reject heat at 15–45 °C — too cool for direct network use. At multi-megawatt scale, absorption heat pumps (driven by network plant heat) and large electric heat pumps compete for this duty. Absorption wins where electrical connections are constrained or expensive, where driving heat is cheap, and where 25-year, low-maintenance service life is valued; electric wins where clean power is abundant. Many schemes deploy both.</p>
+<h2>Why absorption fits network operators</h2>
+<ul>
+<li><strong>Scale:</strong> single machines from ~1 MW to 50 MW thermal.</li>
+<li><strong>COP ≈ 1.7:</strong> every MW of driving heat delivers ~1.7 MW to the network.</li>
+<li><strong>Water refrigerant:</strong> no F-gas compliance across huge installed capacity.</li>
+<li><strong>Simplicity:</strong> few moving parts, quiet operation, familiar LiBr service disciplines.</li>
+</ul>
+<div class="callout"><strong>Worked example:</strong> a 40 MW EfW-fed network fits a 12 MW absorption heat pump for flue gas condensation. Driving heat: 7 MW of plant steam. Recovered from flue gas: 5 MW previously lost. Network gains 12 MW of supply for 7 MW of steam — and the chimney runs visibly drier.</div>
+<h2>UK momentum</h2>
+<p>With heat network zoning legislation, the Green Heat Network Fund, and mandatory efficiency standards for networks, UK operators are being pushed toward exactly the measures absorption heat pumps deliver: lower returns, condensing recovery, and waste heat integration. The Danish playbook is written; the UK is beginning to run it.</p>
+<h2>What operators should do now</h2>
+<ol>
+<li>Measure current flue gas exit temperatures and network return temperatures — the two numbers that size the prize.</li>
+<li>Map waste heat sources within economic pipe distance of the network.</li>
+<li>Run an absorption vs electric heat pump comparison on honest local energy prices and connection costs.</li>
+<li>Plan the maintenance regime with a LiBr specialist from day one — these machines reward the disciplined and punish the neglectful.</li>
+</ol>
+<p>Networks that master heat pumps — absorption and electric together — will be the low-cost heat suppliers of the 2030s. The technology is proven; the advantage now goes to the operators who move first.</p>`},
+
+{id:'trigeneration-chp-absorption-cooling',cat:'Energy Centres',img:'https://images.pexels.com/videos/8523775/pexels-photo-8523775.jpeg?w=800&h=500&fit=crop',
+title:'Trigeneration Explained: Combining CHP with Absorption Cooling',
+desc:'CHP economics collapse in summer when heat demand disappears. Absorption chillers fix the season problem — turning engine heat into chilled water.',
+desc2:'',meta:'Catch Energy Engineering Team · 8 min read',
+body:`<p>Combined heat and power is a simple promise: burn fuel once, get electricity and useful heat together, reach 80%+ total efficiency. The catch arrives every June. Heat demand collapses, the engines either dump heat to roof-top radiators or turn down, and the economics sag for a third of the year. <strong>Trigeneration</strong> — CHP plus an absorption chiller — solves the season problem by converting summer engine heat into chilled water, exactly when cooling demand peaks.</p>
+<h2>How the pieces connect</h2>
+<p>A reciprocating gas engine rejects heat in two main streams: <strong>jacket water</strong> at around 85–95 °C, and <strong>exhaust gas</strong> at 400–500 °C. Both can drive absorption cooling:</p>
+<ul>
+<li><strong>Hot water route:</strong> jacket water (often boosted by an exhaust gas heat exchanger) drives a single-effect absorption chiller at COP ~0.75.</li>
+<li><strong>Exhaust route:</strong> exhaust gas directly fires a double-effect machine at COP ~1.3, or raises steam for a steam-driven chiller.</li>
+<li><strong>Combined machines:</strong> purpose-built CCHP chillers accept jacket water and exhaust simultaneously, squeezing maximum cooling from every engine kilowatt.</li>
+</ul>
+<div class="callout"><strong>Rule of thumb:</strong> a 1 MWe gas engine yields roughly 1.1–1.2 MW of recoverable heat, which converts to about 0.8–1.2 MW of cooling depending on machine type. One engine ≈ one megawatt of summer cooling, nearly free.</div>
+<h2>What trigeneration does to the numbers</h2>
+<ul>
+<li><strong>Run hours:</strong> engines that would turn down in summer keep running at full output, harvesting spark spread all year.</li>
+<li><strong>Displaced electricity:</strong> every kW of absorption cooling displaces ~0.25–0.35 kW of electric chiller demand — reducing import precisely during summer peak tariffs.</li>
+<li><strong>Utilisation:</strong> annual fuel utilisation typically rises from 55–65% (power-led summer operation) to 75–85% with cooling recovery.</li>
+<li><strong>Carbon:</strong> the same fuel now serves three demands; reported intensity per delivered service falls accordingly.</li>
+</ul>
+<h2>Where it fits best</h2>
+<p>Hospitals (year-round cooling for theatres and imaging), data centres, airports, universities, pharmaceutical plants, district energy centres and hotels — anywhere electrical baseload, heat demand and cooling demand coexist. The stronger and steadier the cooling load, the faster the absorption chiller pays back.</p>
+<h2>Design and operational lessons from the field</h2>
+<ol>
+<li><strong>Size the chiller on real summer heat availability</strong>, not engine nameplate — maintenance windows and part-load operation matter.</li>
+<li><strong>Engineer the heat rejection properly:</strong> absorption machines need generous condenser water; undersized towers are the most common cause of "underperforming" chillers we are called to.</li>
+<li><strong>Sequence intelligently:</strong> absorption takes the baseload, electric chillers trim; poor sequencing wastes the free heat.</li>
+<li><strong>Maintain both halves:</strong> the engine gets religious servicing; the chiller deserves the same — vacuum tests, LiBr analysis and tube cleaning keep the COP where the business case put it.</li>
+</ol>
+<p>Trigeneration is mature, proven and quietly compounding value on hundreds of European sites. If your CHP dumps heat in summer while your electric chillers spin next door, the two machines are trying to introduce themselves — an absorption chiller is the handshake.</p>`},
+
+{id:'absorption-chiller-maintenance-guide',cat:'Maintenance',img:'https://images.pexels.com/videos/31319207/pexels-photo-31319207.jpeg?w=800&h=500&fit=crop',
+title:'Absorption Chiller Maintenance: Vacuum, LiBr Chemistry and Crystallisation',
+desc:'The three disciplines that decide whether a LiBr machine lasts 12 years or 30 — and the early warning signs your operators should never ignore.',
+meta:'Catch Energy Engineering Team · 10 min read',
+body:`<p>Absorption chillers are famously long-lived — 25 to 30 years is routine — but only when three disciplines are respected: <strong>vacuum integrity, LiBr chemistry, and crystallisation prevention</strong>. Neglect any one and the same machine can be scrap in a decade. This guide covers what actually matters, drawn from field service across the UK and Europe.</p>
+<h2>Discipline 1: Vacuum integrity</h2>
+<p>The machine's entire function depends on absolute pressures around 1 kPa. Because everything is below atmosphere, leaks pull <strong>air in</strong> — and even small amounts of non-condensable gas devastate performance by blanketing absorber surfaces and raising evaporator pressure.</p>
+<h3>Symptoms of vacuum loss</h3>
+<ul>
+<li>Chilled water temperature creeping above setpoint at unchanged load</li>
+<li>Purge unit running more frequently or continuously</li>
+<li>Rising solution concentrations as controls fight the lost capacity</li>
+<li>Gradual capacity fade over weeks — the classic slow leak signature</li>
+</ul>
+<h3>What good practice looks like</h3>
+<ul>
+<li><strong>24-hour vacuum decay test</strong> at least annually: isolate, log absolute pressure, compare rise against the machine's pass criterion.</li>
+<li><strong>Purge system maintenance:</strong> the purge is the machine's immune system — its pump, valves and pickup lines must be serviced, not just observed.</li>
+<li><strong>Palladium cell / hydrogen management</strong> where fitted, since corrosion generates hydrogen internally even in tight machines.</li>
+<li><strong>Leak detection</strong> (helium or pressure methods) the moment decay tests trend the wrong way.</li>
+</ul>
+<h2>Discipline 2: LiBr chemistry</h2>
+<p>The solution is the machine's bloodstream, and it degrades invisibly. Annual laboratory analysis should verify:</p>
+<ul>
+<li><strong>Corrosion inhibitor level</strong> (typically lithium chromate or molybdate systems): depleted inhibitor means the shell is being consumed from inside.</li>
+<li><strong>Alkalinity:</strong> drifting pH accelerates corrosion and copper transport.</li>
+<li><strong>Performance additive (octyl alcohol)</strong> content: it dramatically improves absorption; it also degrades and needs replenishment.</li>
+<li><strong>Contaminants:</strong> iron and copper in solution are the corrosion products of a machine eating itself — rising trends demand action, not observation.</li>
+</ul>
+<div class="callout"><strong>The cheapest insurance in the plant room:</strong> a solution sample costs little; a corroded absorber section costs a machine. No annual service is complete without chemistry.</div>
+<h2>Discipline 3: Crystallisation prevention</h2>
+<p>Concentrated LiBr solution sits near a solubility cliff: too concentrated and too cool, and salt crystallises solid in the solution heat exchanger, stopping the machine. Common triggers we see in the field:</p>
+<ul>
+<li><strong>Cooling water too cold</strong> (tower running unrestrained in winter or mild weather) chilling the concentrated stream below its limit</li>
+<li><strong>Power loss during operation</strong>, skipping the dilution cycle that safely mixes the solution before standstill</li>
+<li><strong>Air leaks</strong> forcing the controls toward ever-higher concentrations to hold duty</li>
+<li><strong>Faulty temperature or level sensors</strong> steering the concentration control wrongly</li>
+</ul>
+<p>Prevention is procedural: correct shutdown (always let dilution complete), cooling water temperature control, prompt attention to vacuum, and sensor calibration. Recovery from crystallisation — controlled heating of the affected exchanger — is a specialist job; done wrongly it damages the machine further.</p>
+<h2>The supporting cast</h2>
+<ul>
+<li><strong>Tube cleaning:</strong> fouled absorber/condenser tubes show up as widening approach temperatures; clean on condition, typically every 1–3 years depending on water quality.</li>
+<li><strong>Hermetic pumps:</strong> monitor amps and noise; rebuild on interval, not on failure.</li>
+<li><strong>Controls and sensors:</strong> annual calibration of the handful of sensors the safety of the whole machine rests on.</li>
+<li><strong>Trend logging:</strong> the machines announce their problems weeks in advance to anyone recording concentrations, pressures and approaches. Remote monitoring turns that whisper into an email.</li>
+</ul>
+<h2>A sensible annual service, summarised</h2>
+<ol>
+<li>Vacuum decay test and purge service</li>
+<li>LiBr solution sample and laboratory analysis</li>
+<li>Approach temperature survey (fouling assessment)</li>
+<li>Pump condition checks</li>
+<li>Sensor calibration and control function tests</li>
+<li>Written health report with trended data and forward plan</li>
+</ol>
+<p>Do these things every year and an absorption chiller becomes one of the most dependable assets on site. Skip them, and the machine will keep its complaints quiet — until the summer day it cannot.</p>`},
+
+{id:'absorption-chiller-vs-heat-pump',cat:'Strategy',img:'https://images.pexels.com/videos/13580747/pexels-photo-13580747.jpeg?w=800&h=500&fit=crop',
+title:'Absorption Chiller vs Absorption Heat Pump vs Electric: Choosing the Right Machine',
+desc:'Same vessels, different jobs. A practical decision framework for matching absorption chillers, absorption heat pumps and electric plant to your site.',
+meta:'Catch Energy Engineering Team · 8 min read',
+body:`<p>Absorption chillers and absorption heat pumps are mechanically siblings — the same LiBr/water cycle plumbed for different purposes — and both compete with electric alternatives. Choosing well is mostly about answering four questions honestly.</p>
+<h2>Question 1: What do you actually need — cold or heat?</h2>
+<ul>
+<li><strong>You need chilled water</strong> (comfort cooling, process cooling, data hall): you are choosing between an <strong>absorption chiller</strong> and an electric chiller.</li>
+<li><strong>You need heating</strong> (network flow, process heat, hot water): you are choosing between an <strong>absorption heat pump</strong>, an electric heat pump, and boilers.</li>
+<li><strong>You need both:</strong> some sites run absorption machines seasonally — heat pump duty in winter, chiller duty in summer — or split the plant.</li>
+</ul>
+<h2>Question 2: What driving energy is cheap on your site?</h2>
+<p>This is usually decisive.</p>
+<ul>
+<li><strong>Free or cheap heat available</strong> (CHP jacket water, steam, exhaust, purchased waste heat, biomass): absorption technology converts it directly into your product. An absorption chiller turns 90 °C water into 7 °C water at COP ~0.75; a Type I absorption heat pump turns steam plus 30 °C waste heat into 85 °C flow at COP ~1.7.</li>
+<li><strong>Cheap, clean electricity and no spare heat:</strong> electric machines win — modern electric chillers reach COP 5–7; electric heat pumps 3–4+.</li>
+<li><strong>Constrained grid connection:</strong> absorption's few-kilowatt electrical draw can unlock projects that electric plant cannot power.</li>
+</ul>
+<h2>Question 3: What temperatures are involved?</h2>
+<ul>
+<li>Chilled water at 6–12 °C: comfortable absorption chiller territory. Below ~5 °C: electric (or ammonia absorption for sub-zero process duties).</li>
+<li>Heating output up to ~90 °C: Type I absorption heat pump range. Need to <em>lift</em> 80–100 °C waste heat to 120–140 °C with no external energy: the specialist <strong>Type II heat transformer</strong>.</li>
+<li>Waste heat source below ~15 °C: efficiencies fall for all technologies; electric heat pumps usually cope better with very cold sources.</li>
+</ul>
+<h2>Question 4: What does the whole life cost say?</h2>
+<p>Compare on delivered energy cost per year, not capex alone:</p>
+<ul>
+<li><strong>Absorption:</strong> higher capex per kW, minimal electricity, 25–30 year life, low-tech maintenance (vacuum, chemistry, tubes), water refrigerant — zero F-gas cost or risk.</li>
+<li><strong>Electric:</strong> lower capex, meaningful electricity and demand charges, 15–20 year life, compressor maintenance, F-gas compliance and refrigerant phase-down exposure across the fleet.</li>
+</ul>
+<div class="callout"><strong>The hybrid answer is usually the best answer:</strong> absorption machines carrying baseload from cheap heat, electric machines trimming peaks and providing redundancy. Sites rarely regret having both levers.</div>
+<h2>Quick reference</h2>
+<ul>
+<li><strong>CHP on site + summer cooling demand</strong> → absorption chiller (trigeneration). Almost always compelling.</li>
+<li><strong>District heating with condensable flue gas</strong> → Type I absorption heat pump. The Danish standard for a reason.</li>
+<li><strong>Process waste heat, need higher-grade heat, no cheap driving energy</strong> → Type II heat transformer.</li>
+<li><strong>No waste heat, cheap green power</strong> → electric plant, and revisit if a heat source ever appears.</li>
+<li><strong>Grid-constrained site needing cooling</strong> → absorption chiller with on-site or purchased heat.</li>
+</ul>
+<p>The honest feasibility study takes a day with your temperatures, flows and tariffs — and it is a day that regularly finds six-figure annual savings hiding in plain sight. If you'd like a second opinion on a scheme, our engineers review these options for sites across the UK and Europe every week.</p>`}
+];
+
+/* ================= ROUTER ================= */
+function setActive(page){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  const el=document.getElementById('page-'+page);
+  if(el)el.classList.add('active');
+  document.querySelectorAll('[data-nav]').forEach(a=>a.classList.toggle('active',a.dataset.nav===page));
+  document.getElementById('navlinks').classList.remove('open');
+  bindReveals();
+}
+function go(page,anchor){
+  if(page==='article'&&anchor){renderArticle(anchor);location.hash='article/'+anchor;setActive('article');window.scrollTo({top:0});return;}
+  location.hash=page+(anchor?'/'+anchor:'');
+  setActive(page);
+  if(anchor){setTimeout(()=>{const t=document.getElementById(anchor);if(t)t.scrollIntoView({behavior:'smooth'});},80);}
+  else window.scrollTo({top:0});
+}
+function route(){
+  const h=(location.hash||'#home').slice(1);
+  const [page,sub]=h.split('/');
+  if(page==='article'&&sub){renderArticle(sub);setActive('article');window.scrollTo({top:0});return;}
+  if(['home','products','services','blog'].includes(page)){setActive(page);
+    if(sub){setTimeout(()=>{const t=document.getElementById(sub);if(t)t.scrollIntoView();},60);}
+  } else setActive('home');
+}
+window.addEventListener('hashchange',route);
+
+/* ================= BLOG RENDER ================= */
+function postCard(a){
+  return '<div class="post" onclick="go(\'article\',\''+a.id+'\')">'
+  +'<div class="ph"><img loading="lazy" src="'+a.img+'" alt="'+a.title.replace(/"/g,'&quot;')+'" onerror="this.style.display=\'none\'"></div>'
+  +'<div class="bd"><div class="cat">'+a.cat+'</div><h3>'+a.title+'</h3><p>'+a.desc+'</p>'
+  +'<span class="read">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></div>';
+}
+document.getElementById('blog-grid').innerHTML=ARTICLES.map(postCard).join('');
+document.getElementById('home-blog-grid').innerHTML=ARTICLES.slice(0,3).map(postCard).join('');
+
+function renderArticle(id){
+  const a=ARTICLES.find(x=>x.id===id)||ARTICLES[0];
+  document.getElementById('a-cat').textContent=a.cat;
+  document.getElementById('a-title').textContent=a.title;
+  document.getElementById('a-meta').textContent=a.meta;
+  document.getElementById('a-body').innerHTML=a.body;
+  document.title=a.title+' | Catch Energy';
+}
+
+/* ================= MISC ================= */
+function handleSubmit(){
+  var note=document.getElementById('form-note');
+  note.textContent='Thanks — this is a demo form. Connect it to your email/Power Automate webhook to go live.';
+  note.style.color='#127C8C';
+}
+let io;
+function bindReveals(){
+  if(io)io.disconnect();
+  io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+  document.querySelectorAll('.page.active .reveal').forEach(el=>{if(!el.classList.contains('in'))io.observe(el);});
+}
+route();
+</script>
+</body>
+</html>
