@@ -369,11 +369,10 @@
         <div class="line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V8l8-5 8 5v13M9 21v-6h6v6"/></svg><div><span class="lbl">Registered</span><span>England &amp; Wales · Milton Keynes</span></div></div>
       </div>
       <div class="form-card">
-        <form action="https://formsubmit.co/9jitendrachaudhary@gmail.com" method="POST">
+        <form id="enquiryForm" action="https://formsubmit.co/ajax/9jitendrachaudhary@gmail.com" method="POST">
           <input type="hidden" name="_subject" value="New enquiry from Catch Energy website">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="thank-you.html">
           <input type="text" name="_honey" style="display:none">
           <div class="form-row">
             <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" placeholder="Your name" required></div>
@@ -386,7 +385,7 @@
           <div class="field"><label for="f-type">How can we help?</label>
             <select id="f-type" name="enquiry_type"><option>Planned maintenance / contract</option><option>Emergency breakdown</option><option>Commissioning</option><option>Heat recovery feasibility</option><option>Plant health audit</option><option>Something else</option></select></div>
           <div class="field"><label for="f-msg">Tell us about your plant</label><textarea id="f-msg" name="message" rows="4" placeholder="Machine make/model, heat source, site type, and what's happening" required></textarea></div>
-          <button class="btn btn-orange" style="width:100%;justify-content:center" type="submit">Send enquiry</button>
+          <button class="btn btn-orange" id="enquiryBtn" style="width:100%;justify-content:center" type="submit">Send enquiry</button>
           <p class="form-note">We reply within one working day.</p>
         </form>
       </div>
@@ -439,6 +438,31 @@ document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',(
 // reveal on scroll
 const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// contact form — submit in background, show inline thank-you (emails still sent via FormSubmit)
+(function(){
+  var form=document.getElementById('enquiryForm');
+  if(!form)return;
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var btn=document.getElementById('enquiryBtn');
+    btn.textContent='Sending…';btn.disabled=true;
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){return r.json();})
+      .then(function(){
+        form.innerHTML='<div style="text-align:center;padding:24px 8px">'
+          +'<div style="width:64px;height:64px;border-radius:50%;background:rgba(23,162,180,.14);border:1px solid var(--teal-400);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;color:var(--teal-300)">'
+          +'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="width:30px;height:30px"><path d="M20 6 9 17l-5-5"/></svg></div>'
+          +'<h3 style="font-size:22px;margin-bottom:10px;color:#fff">Thank you — we\'ll be in touch soon.</h3>'
+          +'<p style="color:var(--muted);font-size:15.5px;max-width:380px;margin:0 auto">Your enquiry has reached the Catch Energy team. We reply within one working day.</p></div>';
+      })
+      .catch(function(){
+        btn.textContent='Send enquiry';btn.disabled=false;
+        var n=document.createElement('p');n.className='form-note';n.style.color='#F58220';
+        n.textContent='Sorry — something went wrong. Please email service@catchenergy.co.uk instead.';
+        form.appendChild(n);
+      });
+  });
+})();
 // demo form
 
 </script>
