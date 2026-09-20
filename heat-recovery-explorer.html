@@ -59,7 +59,7 @@
       <span class="eyebrow">Step 1 — Your heat source</span>
       <h2 style="font-size:clamp(24px,3vw,32px);letter-spacing:-.03em">What waste heat do you have?</h2>
     </div>
-    <div class="src-grid reveal" id="srcGrid"></div>
+    <div class="src-grid" id="srcGrid"></div>
 
     <div class="exp-results" id="expResults">
       <div class="res-head">
@@ -194,6 +194,5 @@ window.xselect=function(id){
  og.querySelectorAll('.out').forEach(function(c,i){c.style.animationDelay=(i*90)+'ms';c.classList.remove('in');void c.offsetWidth;c.classList.add('in');});
  setTimeout(function(){xres.scrollIntoView({behavior:'smooth',block:'nearest'});},140);
 };
-})()
 </script>
 </body></html>
