@@ -210,8 +210,8 @@ nav ul a.active{color:var(--teal-700)}
 /* STATS */
 .stats{background:#fff;border-bottom:1px solid var(--line);padding:0;box-shadow:0 1px 0 rgba(13,33,64,.03)}
 .stats .wrap{display:flex;flex-wrap:wrap}
-.stats .cell{flex:1;min-width:160px;padding:36px 28px;border-left:2px solid transparent;border-image:linear-gradient(180deg,var(--orange),rgba(245,130,32,.2)) 1;position:relative}
-.stats .cell:first-child{border-left:none;border-image:none}
+.stats .cell{flex:1;min-width:160px;padding:36px 28px;border-left:2px solid rgba(245,130,32,.35);position:relative}
+.stats .cell:first-child{border-left:2px solid var(--orange)}
 .stats .num{font-family:var(--font-display);font-weight:800;font-size:32px;color:var(--navy-900);letter-spacing:-.03em}
 .stats .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-top:6px}
 
@@ -399,6 +399,16 @@ footer{background:var(--navy-950);color:#8BA0B8;padding:72px 0 36px;font-size:14
 /* reveal uses .in from JS */
 .reveal.in{opacity:1;transform:none}
 
+
+/* INDUSTRY CHIPS */
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chip{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;background:#fff;border:1px solid var(--line);border-radius:999px;font-weight:600;font-size:14.5px;color:var(--navy-900);box-shadow:var(--shadow-sm);transition:all .25s}
+.chip:hover{border-color:rgba(26,154,171,.35);box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--teal-500);flex:none}
+
+/* Ensure header/nav always laid out */
+header .nav{display:flex}
+
 </style>
 </head>
 <body>
@@ -424,7 +434,7 @@ footer{background:var(--navy-950);color:#8BA0B8;padding:72px 0 36px;font-size:14
 </header>
 
 <!-- ============ HOME ============ -->
-<main class="page" id="page-home">
+<main class="page active" id="page-home">
 
 <div class="vhero">
   <video autoplay muted loop playsinline poster="https://images.pexels.com/videos/30243443/pexels-photo-30243443.jpeg?w=1600&h=900&fit=crop" onerror="this.style.display='none'">
