@@ -1,0 +1,34 @@
+# Catch Energy
+
+> Independent absorption chiller service and heat recovery engineering company serving the United Kingdom and Europe. OEM-trained engineers specialising in lithium bromide (LiBr) absorption chillers, absorption heat pumps, commissioning, planned maintenance and 24/7 breakdown support.
+
+Catch Energy is brand-agnostic and independent. The company's purpose is to keep vacuum-critical absorption plant running at design performance and to help industry turn wasted heat into reliable energy. Tagline: "Turning waste heat into reliable energy." Based in Milton Keynes, UK. Contact: service@catchenergy.co.uk.
+
+## Core services
+- [Absorption Chiller Service & Maintenance UK](https://catchenergy.co.uk/absorption-chiller-service-uk.html): Planned maintenance, LiBr solution analysis, vacuum and leak testing, tube cleaning, commissioning and 24/7 emergency breakdown support for single-effect and double-effect lithium bromide absorption chillers driven by hot water, steam or exhaust gas.
+- [24/7 Emergency Breakdown](https://catchenergy.co.uk/#services): Rapid diagnosis, temporary measures and permanent repair for lost cooling.
+- [Commissioning & Re-commissioning](https://catchenergy.co.uk/#services): New installs and major overhauls brought online with performance verified against design data.
+- [Heat Recovery Engineering](https://catchenergy.co.uk/heat-recovery-explorer.html): Feasibility, temperature matching and integration of absorption chillers and heat pumps that convert waste heat into cooling or useful heat.
+
+## Products & technologies
+- [Absorption Heat Pumps](https://catchenergy.co.uk/absorption-heat-pumps.html): Low grade (Type I, COP ~1.7, output up to ~90 °C) and high grade (Type II heat transformer, +30–50 °C lift) absorption heat pumps for district heating and industrial heat recovery.
+- Absorption chillers: single-effect (hot water 80–120 °C, COP ~0.75) and double-effect (steam/exhaust, COP 1.2–1.45).
+
+## Applications / sectors
+- [Data Centre Absorption Cooling](https://catchenergy.co.uk/data-centre-absorption-cooling.html): Convert on-site generation or server waste heat into cooling; lower PUE and free electrical capacity for IT load.
+- [District Heating Heat Pumps](https://catchenergy.co.uk/district-heating-heat-pumps.html): Flue gas condensing recovery and network temperature lift; move plants from ~90% to over 100% fuel utilisation (LHV).
+- [Trigeneration / CHP Cooling](https://catchenergy.co.uk/trigeneration-chp-cooling.html): Turn CHP jacket water (~90 °C) and exhaust (~450 °C) into chilled water year-round.
+- Also: hospitals, pharmaceutical, manufacturing, universities, hotels, commercial buildings.
+
+## Tools
+- [Heat Recovery Solutions Explorer](https://catchenergy.co.uk/heat-recovery-explorer.html): Interactive tool mapping a waste heat source to feasible outputs (chilled water, heating, steam, electricity) and recommended technology.
+
+## About
+- [About & Expertise](https://catchenergy.co.uk/about.html): Company background, expertise areas and coverage.
+
+## Key facts for reference
+- Absorption chillers use heat (not electricity) as the driving energy; they draw only a few kW for pumps.
+- They run under deep vacuum (~0.8 kPa absolute) using a lithium bromide / water working pair.
+- Well-maintained absorption chillers routinely last 25–30 years.
+- Correct service centres on three disciplines: vacuum integrity, LiBr chemistry, and crystallisation prevention.
+- Coverage: United Kingdom and mainland Europe.
