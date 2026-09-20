@@ -244,7 +244,7 @@ footer{background:var(--navy-950);color:#7E94AB;padding:80px 0 36px;font-size:14
 .src .src-check{position:absolute;top:10px;right:10px;width:20px;height:20px;border-radius:50%;border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s;background:#fff}
 .src.active .src-check{opacity:1;border-color:var(--teal-500);background:var(--teal-500)}
 .src .src-check svg{width:11px;height:11px;stroke:#fff}
-.src .ic{font-size:26px;margin-bottom:10px;line-height:1}
+.src .ic{width:44px;height:44px;margin-bottom:14px;display:flex;align-items:center;justify-content:center;border-radius:12px;background:var(--ice);color:var(--navy-900)}.src .ic svg{width:24px;height:24px;display:block}
 .src h3{font-size:14px;font-weight:700;color:var(--navy-900);margin-bottom:3px}
 .src .rng{font-family:var(--font-mono);font-size:10.5px;color:var(--faint)}
 .src.notsure{border-style:dashed;background:var(--ice)}
@@ -298,3 +298,34 @@ footer{background:var(--navy-950);color:#7E94AB;padding:80px 0 36px;font-size:14
   .nav{height:68px}
   .stats{margin-top:-32px}
 }
+
+/* Icon containers — fixed size, never blow up */
+.src .ic{
+  width:44px;height:44px;margin-bottom:14px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:12px;
+  background:var(--ice);
+  color:var(--navy-900);
+}
+.src .ic svg{width:24px;height:24px;display:block;stroke:currentColor}
+.src.active .ic{background:rgba(20,152,168,.12);color:var(--teal-700)}
+
+.svc .ic{
+  width:48px;height:48px;margin-bottom:16px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:14px;
+  background:linear-gradient(145deg,var(--ice) 0%,var(--ice-2) 100%);
+  color:var(--teal-700);
+  border:1px solid var(--line);
+}
+.svc .ic svg{width:22px;height:22px;display:block;stroke:currentColor}
+
+.out-ic svg{width:20px;height:20px;display:block}
+
+/* Soften explorer cards */
+.src{
+  display:flex;flex-direction:column;align-items:flex-start;
+  min-height:140px;
+}
+.src h3{font-size:13.5px;line-height:1.35}
+.src .rng{margin-top:4px}
