@@ -369,19 +369,26 @@
         <div class="line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V8l8-5 8 5v13M9 21v-6h6v6"/></svg><div><span class="lbl">Registered</span><span>England &amp; Wales · Milton Keynes</span></div></div>
       </div>
       <div class="form-card">
-        <div class="form-row">
-          <div class="field"><label for="f-name">Name</label><input id="f-name" type="text" placeholder="Your name"></div>
-          <div class="field"><label for="f-company">Company / site</label><input id="f-company" type="text" placeholder="Company or site"></div>
-        </div>
-        <div class="form-row">
-          <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" placeholder="you@company.com"></div>
-          <div class="field"><label for="f-phone">Phone</label><input id="f-phone" type="tel" placeholder="+44"></div>
-        </div>
-        <div class="field"><label for="f-type">How can we help?</label>
-          <select id="f-type"><option>Planned maintenance / contract</option><option>Emergency breakdown</option><option>Commissioning</option><option>Heat recovery feasibility</option><option>Plant health audit</option><option>Something else</option></select></div>
-        <div class="field"><label for="f-msg">Tell us about your plant</label><textarea id="f-msg" rows="4" placeholder="Machine make/model, heat source, site type, and what's happening"></textarea></div>
-        <button class="btn btn-orange" style="width:100%;justify-content:center" onclick="handleSubmit()">Send enquiry</button>
-        <p class="form-note" id="form-note">We reply within one working day.</p>
+        <form action="https://formsubmit.co/9jitendrachaudhary@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New enquiry from Catch Energy website">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://catchenergy.co.uk/thank-you.html">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-row">
+            <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" placeholder="Your name" required></div>
+            <div class="field"><label for="f-company">Company / site</label><input id="f-company" name="company" type="text" placeholder="Company or site"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" placeholder="you@company.com" required></div>
+            <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" placeholder="+44"></div>
+          </div>
+          <div class="field"><label for="f-type">How can we help?</label>
+            <select id="f-type" name="enquiry_type"><option>Planned maintenance / contract</option><option>Emergency breakdown</option><option>Commissioning</option><option>Heat recovery feasibility</option><option>Plant health audit</option><option>Something else</option></select></div>
+          <div class="field"><label for="f-msg">Tell us about your plant</label><textarea id="f-msg" name="message" rows="4" placeholder="Machine make/model, heat source, site type, and what's happening" required></textarea></div>
+          <button class="btn btn-orange" style="width:100%;justify-content:center" type="submit">Send enquiry</button>
+          <p class="form-note">We reply within one working day.</p>
+        </form>
       </div>
     </div>
   </div>
@@ -433,7 +440,7 @@ document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',(
 const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 // demo form
-function handleSubmit(){const n=document.getElementById('form-note');n.textContent='Thanks — this is a demo form. Connect it to your email or Power Automate webhook to go live.';n.style.color='#3DB8C7';}
+
 </script>
 </body>
 </html>
