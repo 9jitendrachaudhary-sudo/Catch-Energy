@@ -23,6 +23,16 @@ Catch Energy is brand-agnostic and independent. The company's purpose is to keep
 ## Tools
 - [Heat Recovery Solutions Explorer](https://catchenergy.co.uk/heat-recovery-explorer.html): Interactive tool mapping a waste heat source to feasible outputs (chilled water, heating, steam, electricity) and recommended technology.
 
+## Knowledge Hub (in-depth technical articles)
+- [How Absorption Chillers Work](https://catchenergy.co.uk/how-absorption-chillers-work.html): Complete engineering guide to the LiBr/water cycle, the four vessels, single vs double-effect, vacuum and crystallisation.
+- [Absorption Heat Pumps Explained](https://catchenergy.co.uk/absorption-heat-pumps-explained.html): Type I heat amplifiers and Type II heat transformers, COP figures, and absorption vs electric heat pumps.
+- [Heat Recovery in Industries](https://catchenergy.co.uk/heat-recovery-in-industries.html): Where industrial waste heat hides, the recovery toolbox, and how to build the business case.
+- [Absorption Chillers in Data Centres](https://catchenergy.co.uk/absorption-chillers-data-centres.html): Trigeneration, waste-heat recovery and heat export to lower PUE and free grid capacity.
+- [Absorption Heat Pumps in District Heating](https://catchenergy.co.uk/absorption-heat-pumps-district-heating.html): Flue-gas condensation, lowering return temperatures and harvesting waste heat at scale.
+- [Trigeneration Explained](https://catchenergy.co.uk/trigeneration-chp-absorption-cooling.html): Combining CHP with absorption cooling to turn summer engine heat into chilled water.
+- [Absorption Chiller Maintenance](https://catchenergy.co.uk/absorption-chiller-maintenance.html): Vacuum integrity, lithium bromide chemistry and crystallisation prevention.
+- [Absorption Chiller vs Heat Pump vs Electric](https://catchenergy.co.uk/absorption-chiller-vs-heat-pump.html): A practical decision framework for choosing the right machine.
+
 ## About
 - [About & Expertise](https://catchenergy.co.uk/about.html): Company background, expertise areas and coverage.
 
